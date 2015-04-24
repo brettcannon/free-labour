@@ -1,5 +1,6 @@
 # Free Labour
-Calculate your open source contributions, e.g. `python3 -m freelabour "Brett Cannon" ~/Repositories/cpython/default`:
+Calculate your open source contributions. E.g. from a checkout,
+`python3 . "Brett Cannon" ~/Repositories/cpython/default`:
 ```
 /Users/bcannon/Repositories/cpython/default
   Lifetime
