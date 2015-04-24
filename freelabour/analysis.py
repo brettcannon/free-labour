@@ -28,8 +28,18 @@ class Statistics:
                 (author_order.index(name)+1, len(author_commits)))
 
     def _create_stats(self, date_range, commit_count, ranking):
-        return types.SimpleNamespace(date_range=date_range,
-                                     commit_count=commit_count, ranking=ranking)
+        if date_range is not None:
+            dates = types.SimpleNamespace(first=date_range[0], last=date_range[1])
+        else:
+            dates = None
+        counts = types.SimpleNamespace(me=commit_count[0],
+                                       everyone=commit_count[1])
+        rank = types.SimpleNamespace(me=ranking[0], everyone=ranking[1])
+        return types.SimpleNamespace(date_range=dates,
+                                     commit_count=counts, ranking=rank)
+
+    def percentage_str(self, stat):
+        return '{:.2f}%'.format(stat.me / stat.everyone * 100)
 
     def _commits_by_author(self, commits):
         """Bucket commits by author."""
