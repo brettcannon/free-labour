@@ -1,5 +1,5 @@
-# free-labour
-Calculate your open source contributions, e.g.
+# Free Labour
+Calculate your open source contributions, e.g. `python3 -m freelabour "Brett Cannon" ~/Repositories/cpython/default`:
 ```
 /Users/bcannon/Repositories/cpython/default
   Lifetime
@@ -11,3 +11,5 @@ Calculate your open source contributions, e.g.
   First commit: 1990-08-09
   Latest commit: 2015-04-14
 ```
+
+Currently only works with Mercurial repositories.
