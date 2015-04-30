@@ -1,1 +1,2 @@
 python-hglib >= 1.6
+pyyaml

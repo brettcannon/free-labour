@@ -1,0 +1,99 @@
+name: Brett Cannon
+
+VCS type by domain:
+  hg:
+  - bitbucket.org
+  - hg.python.org
+  - selenic.com
+  git:
+  - git.code.sf.net
+  - github.com
+
+repositories:
+- url: https://bitbucket.org/gutworth/six
+
+- url: https://bitbucket.org/logilab/pylint
+
+- url: https://bitbucket.org/ned/coveragepy
+  name: coverage.py
+
+- url: https://bitbucket.org/pypa/setuptools
+
+- url: https://bitbucket.org/pypy/pypy
+
+- url: https://bitbucket.org/tiran/defusedexpat
+  commits:
+  - 55da36f0c56af1e4d682d097088d5530b39a6abc
+
+- url: https://bitbucket.org/tiran/defusedxml
+
+- url: https://code.google.com/p/vim/
+  type: hg
+  commits:
+    - 96cd8222a819302f97fe7ad8ae5a9c8adbbcdd56
+
+- url: http://git.code.sf.net/p/expat/code_git expat-code_git
+  commits:
+    - 021ea9f68c5b64799a4fbbc32ab30e1df9fbe3b7
+
+- url: https://github.com/angular/angular.js
+
+- url: https://github.com/brettcannon/caniusepython3
+
+- urls:
+  - https://github.com/brettcanon/oplop
+  - https://bitbucket.org/brettcannon/old-oplop
+
+- url: https://github.com/ceylon/ceylon-lang.org
+
+- url: https://github.com/django/django
+  commits:
+    - c485e236bd7e5ea40c64b2fe54d85dbb15b2fd39
+
+- url: https://github.com/gittip/shields.io
+
+- url: https://github.com/homebrew/homebrew
+
+- url: https://github.com/MPOS/php-mpos
+
+- url: https://github.com/pyca/pyopenssl
+
+- url: https://github.com/python-modernize/python-modernize
+  name: Modernize
+
+- url: https://github.com/rust-lang/rust
+
+- url: https://github.com/sphinx-doc/sphinx
+
+- url: https://github.com/square/dagger
+
+- url: https://hg.python.org/benchmarks/
+  name: The Grand Unified Python Benchmark Suite
+
+- url: https://hg.python.org/cpython/
+
+- url: https://hg.python.org/devguide/
+  name: Python Developer's Guide
+
+- url: https://hg.python.org/devinabox/
+
+- url: https://hg.python.org/peps/
+  name: Python Enhancement Proposals
+
+- url: http://selenic.com/hg
+  name: Mercurial
+
+- url: http://selenic.com/repo/python-hglib
+
+# Projects that I have created which never received an external contribution.
+# --------------------
+# https://github.com/brettcannon/find-duplicate-files
+# https://github.com/brettcannon/importlib
+# https://github.com/brettcannon/mnfy
+# https://github.com/brettcannon/trips-history
+# http://code.google.com/p/importers
+# http://code.google.com/p/bcannon
+# http://code.google.com/p/gae-god
+# http://code.google.com/p/realstorage
+# http://code.google.com/p/pithycomment
+# http://code.google.com/p/bcannon-www2010

@@ -1,0 +1,184 @@
+https://bitbucket.org/gutworth/six
+https://bitbucket.org/logilab/pylint
+https://bitbucket.org/ned/coveragepy
+https://bitbucket.org/pypa/setuptools
+https://bitbucket.org/pypy/pypy
+https://bitbucket.org/tiran/defusedexpat
+https://bitbucket.org/tiran/defusedxml
+https://code.google.com/p/vim/
+http://git.code.sf.net/p/expat/code_git expat-code_git: 'git' is an unsupported repository type
+https://github.com/angular/angular.js: 'git' is an unsupported repository type
+https://github.com/brettcannon/caniusepython3: 'git' is an unsupported repository type
+https://github.com/brettcanon/oplop: 'git' is an unsupported repository type
+https://bitbucket.org/brettcannon/old-oplop
+https://github.com/ceylon/ceylon-lang.org: 'git' is an unsupported repository type
+https://github.com/django/django: 'git' is an unsupported repository type
+https://github.com/gittip/shields.io: 'git' is an unsupported repository type
+https://github.com/homebrew/homebrew: 'git' is an unsupported repository type
+https://github.com/MPOS/php-mpos: 'git' is an unsupported repository type
+https://github.com/pyca/pyopenssl: 'git' is an unsupported repository type
+https://github.com/python-modernize/python-modernize: 'git' is an unsupported repository type
+https://github.com/rust-lang/rust: 'git' is an unsupported repository type
+https://github.com/sphinx-doc/sphinx: 'git' is an unsupported repository type
+https://github.com/square/dagger: 'git' is an unsupported repository type
+https://hg.python.org/benchmarks/
+https://hg.python.org/cpython/
+https://hg.python.org/devguide/
+https://hg.python.org/devinabox/
+https://hg.python.org/peps/
+http://selenic.com/hg
+http://selenic.com/repo/python-hglib
+
+devinabox
+  Lifetime
+    Commits: 59 out of 61 (96.72%)
+    Ranking: 1 out of 2
+  Last 12 months
+    Commits: 0 out of 0 (0.00%)
+    Ranking: 0 out of 0
+  First commit: 2011-02-25
+  Latest commit: 2014-03-21
+
+six
+  Lifetime
+    Commits: 8 out of 400 (2.00%)
+    Ranking: 4 out of 25
+  Last 12 months
+    Commits: 8 out of 126 (6.35%)
+    Ranking: 2 out of 15
+  First commit: 2014-10-03
+  Latest commit: 2015-03-03
+
+The Grand Unified Python Benchmark Suite
+  Lifetime
+    Commits: 33 out of 220 (15.00%)
+    Ranking: 3 out of 10
+  Last 12 months
+    Commits: 0 out of 3 (0.00%)
+    Ranking: 0 out of 1
+  First commit: 2012-08-31
+  Latest commit: 2013-08-23
+
+defusedexpat
+  Lifetime
+    Commits: 0 out of 68 (0.00%)
+    Ranking: 0 out of 1
+  Last 12 months
+    Commits: 0 out of 0 (0.00%)
+    Ranking: 0 out of 0
+
+cpython
+  Lifetime
+    Commits: 1,966 out of 95,830 (2.05%)
+    Ranking: 17 out of 192
+  Last 12 months
+    Commits: 60 out of 5,298 (1.13%)
+    Ranking: 16 out of 56
+  First commit: 2003-04-19
+  Latest commit: 2015-04-13
+
+pylint
+  Lifetime
+    Commits: 40 out of 2,215 (1.81%)
+    Ranking: 10 out of 109
+  Last 12 months
+    Commits: 40 out of 746 (5.36%)
+    Ranking: 5 out of 41
+  First commit: 2014-08-29
+  Latest commit: 2015-02-20
+
+Python Enhancement Proposals
+  Lifetime
+    Commits: 530 out of 5,814 (9.12%)
+    Ranking: 3 out of 103
+  Last 12 months
+    Commits: 19 out of 343 (5.54%)
+    Ranking: 8 out of 22
+  First commit: 2004-08-24
+  Latest commit: 2015-04-14
+
+python-hglib
+  Lifetime
+    Commits: 18 out of 162 (11.11%)
+    Ranking: 3 out of 12
+  Last 12 months
+    Commits: 18 out of 40 (45.00%)
+    Ranking: 1 out of 5
+  First commit: 2015-03-07
+  Latest commit: 2015-03-27
+
+pypy
+  Lifetime
+    Commits: 1 out of 76,952 (0.00%)
+    Ranking: 313 out of 316
+  Last 12 months
+    Commits: 0 out of 5,800 (0.00%)
+    Ranking: 0 out of 70
+  First commit: 2011-07-17
+  Latest commit: 2011-07-17
+
+coverage.py
+  Lifetime
+    Commits: 8 out of 2,076 (0.39%)
+    Ranking: 3 out of 33
+  Last 12 months
+    Commits: 0 out of 460 (0.00%)
+    Ranking: 0 out of 13
+  First commit: 2011-01-28
+  Latest commit: 2012-11-15
+
+vim
+  Lifetime
+    Commits: 0 out of 6,783 (0.00%)
+    Ranking: 0 out of 3
+  Last 12 months
+    Commits: 0 out of 921 (0.00%)
+    Ranking: 0 out of 1
+
+old-oplop
+  Lifetime
+    Commits: 467 out of 803 (58.16%)
+    Ranking: 1 out of 5
+  Last 12 months
+    Commits: 0 out of 0 (0.00%)
+    Ranking: 0 out of 0
+  First commit: 2010-05-08
+  Latest commit: 2013-07-17
+
+Python Developer's Guide
+  Lifetime
+    Commits: 252 out of 744 (33.87%)
+    Ranking: 1 out of 49
+  Last 12 months
+    Commits: 4 out of 52 (7.69%)
+    Ranking: 5 out of 16
+  First commit: 2011-01-03
+  Latest commit: 2015-03-18
+
+Mercurial
+  Lifetime
+    Commits: 1 out of 24,883 (0.00%)
+    Ranking: 613 out of 622
+  Last 12 months
+    Commits: 0 out of 3,405 (0.00%)
+    Ranking: 0 out of 79
+  First commit: 2010-04-18
+  Latest commit: 2010-04-18
+
+defusedxml
+  Lifetime
+    Commits: 8 out of 132 (6.06%)
+    Ranking: 2 out of 3
+  Last 12 months
+    Commits: 0 out of 0 (0.00%)
+    Ranking: 0 out of 0
+  First commit: 2013-02-08
+  Latest commit: 2013-02-12
+
+setuptools
+  Lifetime
+    Commits: 0 out of 3,829 (0.00%)
+    Ranking: 0 out of 115
+  Last 12 months
+    Commits: 0 out of 1,111 (0.00%)
+    Ranking: 0 out of 36

@@ -1,45 +1,55 @@
-import collections
-import datetime
-import operator
 import pathlib
 import sys
 
-from . import vcs, analysis
+from . import conf
 
 
-def main(name, repo_path):
-    path = pathlib.Path(repo_path).resolve()
-    repo = vcs.Hg(path)
-    commits = repo.log()
+def percentage_str(stat):
+    try:
+        percent = stat.me / stat.everyone * 100
+    except ZeroDivisionError:
+        percent = 0.0
+    return '{:.2f}%'.format(percent)
 
-    results = analysis.Statistics(name, commits)
 
-    print(path)
+def stats(project):
+    print(project.name)
     print('  Lifetime')
     commit_stats = '{:,} out of {:,} ({})'.format(
-            results.all.commit_count.me,
-            results.all.commit_count.everyone,
-            results.percentage_str(results.all.commit_count))
+            project.analysis.all.commit_count.me,
+            project.analysis.all.commit_count.everyone,
+            percentage_str(project.analysis.all.commit_count))
     print('    Commits:', commit_stats)
-    print('    Ranking: {} out of {} (top {})'.format(
-            results.all.ranking.me,
-            results.all.ranking.everyone,
-            results.percentage_str(results.all.ranking)))
+    print('    Ranking: {} out of {}'.format(
+            project.analysis.all.ranking.me,
+            project.analysis.all.ranking.everyone))
 
     print('  Last 12 months')
     commit_stats = '{:,} out of {:,} ({})'.format(
-            results.past_year.commit_count.me,
-            results.past_year.commit_count.everyone,
-            results.percentage_str(results.past_year.commit_count))
+            project.analysis.past_year.commit_count.me,
+            project.analysis.past_year.commit_count.everyone,
+            percentage_str(project.analysis.past_year.commit_count))
     print('    Commits:', commit_stats)
-    print('    Ranking: {} out of {} (top {})'.format(
-            results.past_year.ranking.me,
-            results.past_year.ranking.everyone,
-            results.percentage_str(results.past_year.ranking)))
+    print('    Ranking: {} out of {}'.format(
+            project.analysis.past_year.ranking.me,
+            project.analysis.past_year.ranking.everyone))
 
-    print('  First commit:', results.all.date_range.first.strftime('%Y-%m-%d'))
-    print('  Latest commit:', results.all.date_range.last.strftime('%Y-%m-%d'))
+    if project.analysis.all.date_range is not None:
+        first_commit = project.analysis.all.date_range.first.strftime('%Y-%m-%d')
+        print('  First commit:', first_commit)
+        last_commit = project.analysis.all.date_range.last.strftime('%Y-%m-%d')
+        print('  Latest commit:', last_commit)
+    print()
+
+
+def main(conf_path):
+    data = conf.read(conf_path)
+    projects = conf.process(data, pathlib.Path(conf_path).parent / 'repos')
+    print()
+    for project in projects:
+        stats(project)
+    pass
 
 
 if __name__ == '__main__':
-    main(sys.argv[0], sys.argv[1])
+    main(sys.argv[1])
