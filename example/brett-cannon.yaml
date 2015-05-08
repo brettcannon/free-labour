@@ -8,6 +8,7 @@ VCS type by domain:
   git:
   - git.code.sf.net
   - github.com
+  - go.googlesource.com
 
 repositories:
 - url: https://bitbucket.org/gutworth/six
@@ -66,6 +67,8 @@ repositories:
 - url: https://github.com/sphinx-doc/sphinx
 
 - url: https://github.com/square/dagger
+
+- url: https://go.googlesource.com/go
 
 - url: https://hg.python.org/benchmarks/
   name: The Grand Unified Python Benchmark Suite
