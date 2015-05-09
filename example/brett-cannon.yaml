@@ -33,40 +33,53 @@ repositories:
   commits:
     - 96cd8222a819302f97fe7ad8ae5a9c8adbbcdd56
 
-- url: http://git.code.sf.net/p/expat/code_git expat-code_git
+- url: http://git.code.sf.net/p/expat/code_git
+  name: Expat
   commits:
     - 021ea9f68c5b64799a4fbbc32ab30e1df9fbe3b7
 
-- url: https://github.com/angular/angular.js
+- url: https://github.com/angular/angular.js.git
+  name: Angular.js
 
-- url: https://github.com/brettcannon/caniusepython3
+- url: https://github.com/brettcannon/caniusepython3.git
+  name: caniusepython3
 
 - urls:
-  - https://github.com/brettcanon/oplop
+  - https://github.com/brettcanon/oplop.git
   - https://bitbucket.org/brettcannon/old-oplop
+  name: Oplop
 
-- url: https://github.com/ceylon/ceylon-lang.org
+- url: https://github.com/ceylon/ceylon-lang.org.git
+  name: Ceylon
 
-- url: https://github.com/django/django
+- url: https://github.com/django/django.git
+  name: Django
   commits:
     - c485e236bd7e5ea40c64b2fe54d85dbb15b2fd39
 
-- url: https://github.com/gittip/shields.io
+- url: https://github.com/gittip/shields.io.git
+  name: shields.io
 
-- url: https://github.com/homebrew/homebrew
+- url: https://github.com/homebrew/homebrew.git
+  name: Homebrew
 
-- url: https://github.com/MPOS/php-mpos
+- url: https://github.com/MPOS/php-mpos.git
+  name: MPOS
 
-- url: https://github.com/pyca/pyopenssl
+- url: https://github.com/pyca/pyopenssl.git
+  name: PyOpenSSL
 
-- url: https://github.com/python-modernize/python-modernize
+- url: https://github.com/python-modernize/python-modernize.git
   name: Modernize
 
-- url: https://github.com/rust-lang/rust
+- url: https://github.com/rust-lang/rust.git
+  name: Rust
 
-- url: https://github.com/sphinx-doc/sphinx
+- url: https://github.com/sphinx-doc/sphinx.git
+  name: Sphinx
 
-- url: https://github.com/square/dagger
+- url: https://github.com/square/dagger.git
+  name: Dagger
 
 - url: https://go.googlesource.com/go
 
@@ -89,7 +102,7 @@ repositories:
 - url: http://selenic.com/repo/python-hglib
 
 # Projects that I have created which never received an external contribution.
-# --------------------
+# ---------------------------------------------------------------------------
 # https://github.com/brettcannon/find-duplicate-files
 # https://github.com/brettcannon/importlib
 # https://github.com/brettcannon/mnfy
