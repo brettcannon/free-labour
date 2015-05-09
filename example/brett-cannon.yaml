@@ -18,25 +18,26 @@ repositories:
 - url: https://bitbucket.org/ned/coveragepy
   name: coverage.py
 
-- url: https://bitbucket.org/pypa/setuptools
+# Only under distribute branch
+#- url: https://bitbucket.org/pypa/setuptools
 
 - url: https://bitbucket.org/pypy/pypy
 
-- url: https://bitbucket.org/tiran/defusedexpat
-  commits:
-  - 55da36f0c56af1e4d682d097088d5530b39a6abc
+#- url: https://bitbucket.org/tiran/defusedexpat
+#  commits:
+#  - 55da36f0c56af1e4d682d097088d5530b39a6abc
 
 - url: https://bitbucket.org/tiran/defusedxml
 
-- url: https://code.google.com/p/vim/
-  type: hg
-  commits:
-    - 96cd8222a819302f97fe7ad8ae5a9c8adbbcdd56
+#- url: https://code.google.com/p/vim/
+#  type: hg
+#  commits:
+#    - 96cd8222a819302f97fe7ad8ae5a9c8adbbcdd56
 
-- url: http://git.code.sf.net/p/expat/code_git
-  name: Expat
-  commits:
-    - 021ea9f68c5b64799a4fbbc32ab30e1df9fbe3b7
+#- url: http://git.code.sf.net/p/expat/code_git
+#  name: Expat
+#  commits:
+#    - 021ea9f68c5b64799a4fbbc32ab30e1df9fbe3b7
 
 - url: https://github.com/angular/angular.js.git
   name: Angular.js
@@ -44,18 +45,18 @@ repositories:
 - url: https://github.com/brettcannon/caniusepython3.git
   name: caniusepython3
 
-- urls:
-  - https://github.com/brettcanon/oplop.git
-  - https://bitbucket.org/brettcannon/old-oplop
-  name: Oplop
+#- urls:
+#  - https://github.com/brettcannon/oplop.git
+#  - https://bitbucket.org/brettcannon/old-oplop
+#  name: Oplop
 
 - url: https://github.com/ceylon/ceylon-lang.org.git
   name: Ceylon
 
-- url: https://github.com/django/django.git
-  name: Django
-  commits:
-    - c485e236bd7e5ea40c64b2fe54d85dbb15b2fd39
+#- url: https://github.com/django/django.git
+#  name: Django
+#  commits:
+#    - c485e236bd7e5ea40c64b2fe54d85dbb15b2fd39
 
 - url: https://github.com/gittip/shields.io.git
   name: shields.io
