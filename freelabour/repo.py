@@ -5,6 +5,7 @@ import pathlib
 import types
 
 import hglib
+import git
 
 
 def create_log_entry(id_, date, author):
@@ -14,6 +15,7 @@ def create_log_entry(id_, date, author):
 @enum.unique
 class Supported(enum.Enum):
     hg = 1
+    git = 2
 
 
 class Repo(metaclass=abc.ABCMeta):
@@ -94,3 +96,26 @@ class Hg(Repo):
 
     def close(self):
         self._client.close()
+
+
+@Repo.register
+class Git(Repo):
+
+    """Implements Git repository access."""
+
+    type = Supported.git
+
+    def clone(self):
+        self._repo = git.Repo.clone_from(self.remote, str(self.directory))
+
+    def update(self):
+        self._repo = git.Repo(str(self.directory))
+        self._repo.remotes.origin.pull()
+
+    def log(self):
+        # https://github.com/gitpython-developers/GitPython/issues/157
+        # http://blog.lost-theory.org/post/how-to-parse-git-log-output/
+        return []
+
+    def close(self):
+        pass
