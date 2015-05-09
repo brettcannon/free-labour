@@ -1,4 +1,5 @@
 import abc
+import datetime
 import enum
 import hashlib
 import pathlib
@@ -113,9 +114,15 @@ class Git(Repo):
         self._repo.remotes.origin.pull()
 
     def log(self):
-        # https://github.com/gitpython-developers/GitPython/issues/157
-        # http://blog.lost-theory.org/post/how-to-parse-git-log-output/
-        return []
+        # From http://blog.lost-theory.org/post/how-to-parse-git-log-output/ .
+        log_format = '%x1f'.join(['%H', '%at', '%an']) + '%x1e'
+        raw_log = self._repo.git.log(format=log_format, date='short')
+        commits = []
+        for raw_commit in raw_log.strip('\n\x1e').split("\x1e"):
+            commit_bits = raw_commit.strip().split("\x1f")
+            date = datetime.datetime.fromtimestamp(int(commit_bits[1]))
+            commits.append(create_log_entry(commit_bits[0], date, commit_bits[2]))
+        return commits
 
     def close(self):
         pass
