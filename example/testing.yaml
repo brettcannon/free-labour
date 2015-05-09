@@ -3,12 +3,17 @@ name: Brett Cannon
 VCS type by domain:
   hg:
   - bitbucket.org
+  git:
+  - github.com
 
 repositories:
 - url: https://bitbucket.org/gutworth/six
 
 - url: https://hg.python.org/devinabox/
   type: hg
+
+- url: https://github.com/brettcannon/free-labour.git
+  name: Free Labour
 
 # - urls
 # - commits
