@@ -2,13 +2,13 @@ name: Brett Cannon
 
 VCS type by domain:
   hg:
-  - bitbucket.org
-  - hg.python.org
-  - selenic.com
+    - bitbucket.org
+    - hg.python.org
+    - selenic.com
   git:
-  - git.code.sf.net
-  - github.com
-  - go.googlesource.com
+    - git.code.sf.net
+    - github.com
+    - go.googlesource.com
 
 repositories:
 - url: https://bitbucket.org/gutworth/six
@@ -45,10 +45,10 @@ repositories:
 - url: https://github.com/brettcannon/caniusepython3.git
   name: caniusepython3
 
-#- urls:
-#  - https://github.com/brettcannon/oplop.git
-#  - https://bitbucket.org/brettcannon/old-oplop
-#  name: Oplop
+- urls:
+    - https://github.com/brettcannon/oplop.git
+    - https://bitbucket.org/brettcannon/old-oplop
+  name: Oplop
 
 - url: https://github.com/ceylon/ceylon-lang.org.git
   name: Ceylon
