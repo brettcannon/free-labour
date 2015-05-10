@@ -15,5 +15,10 @@ repositories:
 - url: https://github.com/brettcannon/free-labour.git
   name: Free Labour
 
-# - urls
+# First commit should be in 2009.
+- urls:
+    - https://github.com/brettcannon/oplop.git
+    - https://bitbucket.org/brettcannon/old-oplop
+  name: Oplop
+
 # - commits
