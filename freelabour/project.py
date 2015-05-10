@@ -42,10 +42,7 @@ class Project:
 
     def _analyze(self, name, commits):
         author_commits = self._commits_by_author(commits)
-        try:
-            my_commits = author_commits[name]
-        except KeyError:
-            my_commits = []
+        my_commits = self._coalesce_author(name, author_commits)
         author_order = list(self._authors_by_commit_count(author_commits))
         sorted_commits = self._sort_by_date(my_commits)
         ranking = 0
@@ -99,6 +96,27 @@ class Project:
         for commit in commits:
             author_commits.setdefault(commit.author, []).append(commit)
         return author_commits
+
+    def _coalesce_author(self, name, commits_by_author):
+        """Find all the commits by an author using some name coelescing."""
+        name_variants = {name}
+        name_parts = name.split()
+        name_variants.add(''.join(name_parts))
+        name_variants.add(name_parts[0][0] + ''.join(name_parts[1:]))
+        for variant in list(name_variants):
+            name_variants.add(variant.lower())
+        found_names = set()
+        for author_name in commits_by_author:
+            if any(variant in author_name for variant in name_variants):
+                found_names.add(author_name)
+        self.found_names = found_names
+        for found_name in found_names:
+            if found_name == name:
+                continue
+            found_commits = commits_by_author[found_name]
+            commits_by_author.setdefault(name, []).extend(found_commits)
+            del commits_by_author[found_name]
+        return commits_by_author.get(name, [])
 
     def _authors_by_commit_count(self, author_commits):
         """Create an iterator of authors sorted by commit count (descending)."""

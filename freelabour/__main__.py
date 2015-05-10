@@ -14,6 +14,7 @@ def percentage_str(stat):
 
 def stats(project):
     print(project.name)
+    print('  Author/committer as', ', '.join(map(repr, project.found_names)))
     print('  Lifetime')
     commit_stats = '{:,} out of {:,} ({})'.format(
             project.analysis.all.commit_count.me,
