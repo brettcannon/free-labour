@@ -24,7 +24,10 @@ def repo_type(domain_mapping, url):
 def process(data, dest_parent):
     future_projects = set()
     pool = futures.ThreadPoolExecutor(os.cpu_count() or 1)
+    user_name = data['name']
     domain_mapping = data['VCS type by domain']
+    # TODO: make concurrent; probably name of project with repo and then
+    # groupby after fetching them all. Can keep creating projects concurrently.
     for repository in data['repositories']:
         repos = []
         urls = repository.get('urls')
@@ -36,13 +39,19 @@ def process(data, dest_parent):
                 type_ = repo_type(domain_mapping, url)
             try:
                 repos.append(repo.Repo.get(type_, url, dest_parent))
+                print(url)
             except ValueError as exc:
                 print('{}: {}'.format(url, str(exc)))
                 continue
         if not repos:
             continue
-        for repo_url in map(operator.attrgetter('remote'), repos):
-            print(repo_url)
+        claimed_commits = repository.get('commits', [])
+        for claimed_commit in claimed_commits:
+            for r in repos:
+                try:
+                    r.claim_commit(user_name, claimed_commit)
+                except ValueError:
+                    pass
         f = pool.submit(project.Project, data['name'],
                         repository.get('name'), *repos)
         future_projects.add(f)

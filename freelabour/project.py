@@ -36,7 +36,7 @@ class Project:
         commits = []
         for repo in self.repositories:
             with repo:
-                commits.extend(repo.log())
+                commits.extend(repo.commits)
         self.analysis = types.SimpleNamespace(all=None, past_year=None)
         self._analyze(person, commits)
 

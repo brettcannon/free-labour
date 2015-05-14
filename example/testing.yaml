@@ -21,4 +21,6 @@ repositories:
     - https://bitbucket.org/brettcannon/old-oplop
   name: Oplop
 
-# - commits
+- url: https://bitbucket.org/tiran/defusedexpat
+  commits:
+  - 55da36f0c56af1e4d682d097088d5530b39a6abc

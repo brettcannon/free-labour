@@ -1,6 +1,7 @@
 import abc
 import datetime
 import enum
+import functools
 import hashlib
 import pathlib
 import types
@@ -45,6 +46,9 @@ class Repo(metaclass=abc.ABCMeta):
         self.remote = remote
         hashed_remote = hashlib.sha1(remote.encode('utf-8')).hexdigest()
         self.directory = parent_path / hashed_remote
+        self.claimed_commits = []
+        with self:
+            self.commits = self.log()
 
     def __enter__(self):
         if not self.directory.exists():
@@ -71,6 +75,17 @@ class Repo(metaclass=abc.ABCMeta):
     def close(self):
         raise NotImplementedError
 
+    def claim_commit(self, name, id_):
+        for commit in self.commits:
+            if id_ == commit.id:
+                new_id = id_ + '-author'
+                cloned_commit = create_log_entry(new_id, commit.date, name)
+                self.commits.append(cloned_commit)
+                self.claimed_commits.append(cloned_commit)
+                return
+        else:
+            raise ValueError('commit {!r} not found'.format(id_))
+
 
 @Repo.register
 class Hg(Repo):
@@ -92,8 +107,10 @@ class Hg(Repo):
         self._client.pull(update=True)
 
     def log(self):
-        return [create_log_entry(entry.rev, entry.date, self._author_name(entry))
-                for entry in self._client.log()]
+        commits = self._client.log()
+        return [create_log_entry(entry.node.decode('utf-8'), entry.date,
+                                 self._author_name(entry))
+                for entry in commits]
 
     def close(self):
         self._client.close()
