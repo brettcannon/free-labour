@@ -47,9 +47,8 @@ def main(conf_path):
     data = conf.read(conf_path)
     projects = conf.process(data, pathlib.Path(conf_path).parent / 'repos')
     print()
-    for project in projects:
+    for project in sorted(projects, key=lambda project: project.name.lower()):
         stats(project)
-    pass
 
 
 if __name__ == '__main__':
