@@ -34,9 +34,11 @@ class Project:
         self.name = name
         self.repositories = repos
         commits = []
+        self.claimed_commits = False
         for repo in self.repositories:
-            with repo:
-                commits.extend(repo.commits)
+            commits.extend(repo.commits)
+            if repo.claimed_commits:
+                self.claimed_commits = True
         self.analysis = types.SimpleNamespace(all=None, past_year=None)
         self._analyze(person, commits)
 

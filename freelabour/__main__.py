@@ -14,26 +14,36 @@ def percentage_str(stat):
 
 def stats(project):
     print(project.name)
-    print('  Author/committer as', ', '.join(map(repr, project.found_names)))
+    if project.claimed_commits:
+        print('  Manually claimed all commits')
+    else:
+        names = sorted(map(repr, project.found_names))
+        print('  Author/committer as', ', '.join(names))
     print('  Lifetime')
-    commit_stats = '{:,} out of {:,} ({})'.format(
-            project.analysis.all.commit_count.me,
-            project.analysis.all.commit_count.everyone,
-            percentage_str(project.analysis.all.commit_count))
-    print('    Commits:', commit_stats)
-    print('    Ranking: {} out of {}'.format(
-            project.analysis.all.ranking.me,
-            project.analysis.all.ranking.everyone))
+    if project.claimed_commits:
+        print('    {:,} commits'.format(project.analysis.all.commit_count.me))
+    else:
+        commit_stats = '{:,} out of {:,} ({})'.format(
+                project.analysis.all.commit_count.me,
+                project.analysis.all.commit_count.everyone,
+                percentage_str(project.analysis.all.commit_count))
+        print('    Commits:', commit_stats)
+        print('    Ranking: {} out of {}'.format(
+                project.analysis.all.ranking.me,
+                project.analysis.all.ranking.everyone))
 
     print('  Last 12 months')
-    commit_stats = '{:,} out of {:,} ({})'.format(
-            project.analysis.past_year.commit_count.me,
-            project.analysis.past_year.commit_count.everyone,
-            percentage_str(project.analysis.past_year.commit_count))
-    print('    Commits:', commit_stats)
-    print('    Ranking: {} out of {}'.format(
-            project.analysis.past_year.ranking.me,
-            project.analysis.past_year.ranking.everyone))
+    if project.claimed_commits:
+        print('    {:,} commits'.format(project.analysis.past_year.commit_count.me))
+    else:
+        commit_stats = '{:,} out of {:,} ({})'.format(
+                project.analysis.past_year.commit_count.me,
+                project.analysis.past_year.commit_count.everyone,
+                percentage_str(project.analysis.past_year.commit_count))
+        print('    Commits:', commit_stats)
+        print('    Ranking: {} out of {}'.format(
+                project.analysis.past_year.ranking.me,
+                project.analysis.past_year.ranking.everyone))
 
     if project.analysis.all.date_range is not None:
         first_commit = project.analysis.all.date_range.first.strftime('%Y-%m-%d')

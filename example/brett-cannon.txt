@@ -54,7 +54,7 @@ Ceylon
   Author/committer as 'brettcannon'
   Lifetime
     Commits: 7 out of 2,528 (0.28%)
-    Ranking: 16 out of 47
+    Ranking: 15 out of 47
   Last 12 months
     Commits: 0 out of 393 (0.00%)
     Ranking: 0 out of 15
@@ -95,13 +95,11 @@ Dagger
   Latest commit: 2012-10-23
 
 defusedexpat
-  Author/committer as 'Brett Cannon'
+  Manually claimed all commits
   Lifetime
-    Commits: 1 out of 69 (1.45%)
-    Ranking: 2 out of 2
+    1 commits
   Last 12 months
-    Commits: 0 out of 0 (0.00%)
-    Ranking: 0 out of 0
+    0 commits
   First commit: 2013-02-12
   Latest commit: 2013-02-12
 
@@ -128,24 +126,20 @@ devinabox
   Latest commit: 2014-03-21
 
 Django
-  Author/committer as 'Brett Cannon'
+  Manually claimed all commits
   Lifetime
-    Commits: 1 out of 20,583 (0.00%)
-    Ranking: 558 out of 971
+    1 commits
   Last 12 months
-    Commits: 0 out of 2,752 (0.00%)
-    Ranking: 0 out of 445
+    0 commits
   First commit: 2009-03-18
   Latest commit: 2009-03-18
 
 Expat
-  Author/committer as 'Brett Cannon'
+  Manually claimed all commits
   Lifetime
-    Commits: 1 out of 1,275 (0.08%)
-    Ranking: 9 out of 9
+    1 commits
   Last 12 months
-    Commits: 0 out of 0 (0.00%)
-    Ranking: 0 out of 0
+    0 commits
   First commit: 2006-06-30
   Latest commit: 2006-06-30
 
@@ -153,20 +147,20 @@ go
   Author/committer as 'Brett Cannon'
   Lifetime
     Commits: 1 out of 23,462 (0.00%)
-    Ranking: 453 out of 612
+    Ranking: 469 out of 612
   Last 12 months
     Commits: 1 out of 4,084 (0.02%)
-    Ranking: 191 out of 209
+    Ranking: 116 out of 209
   First commit: 2015-05-08
   Latest commit: 2015-05-08
 
 Homebrew
   Author/committer as 'Brett Cannon'
   Lifetime
-    Commits: 6 out of 46,519 (0.01%)
-    Ranking: 545 out of 5564
+    Commits: 6 out of 46,525 (0.01%)
+    Ranking: 513 out of 5564
   Last 12 months
-    Commits: 0 out of 14,966 (0.00%)
+    Commits: 0 out of 14,971 (0.00%)
     Ranking: 0 out of 1607
   First commit: 2009-09-03
   Latest commit: 2010-09-17
@@ -175,7 +169,7 @@ Mercurial
   Author/committer as 'Brett Cannon'
   Lifetime
     Commits: 1 out of 25,112 (0.00%)
-    Ranking: 458 out of 623
+    Ranking: 495 out of 623
   Last 12 months
     Commits: 0 out of 3,470 (0.00%)
     Ranking: 0 out of 77
@@ -197,7 +191,7 @@ MPOS
   Author/committer as 'Brett Cannon'
   Lifetime
     Commits: 2 out of 3,828 (0.05%)
-    Ranking: 42 out of 85
+    Ranking: 37 out of 85
   Last 12 months
     Commits: 0 out of 202 (0.00%)
     Ranking: 0 out of 9
@@ -205,7 +199,7 @@ MPOS
   Latest commit: 2014-04-05
 
 Oplop
-  Author/committer as 'bcannon', '"Brett Cannon', 'Brett Cannon'
+  Author/committer as '"Brett Cannon', 'Brett Cannon', 'bcannon'
   Lifetime
     Commits: 969 out of 999 (97.00%)
     Ranking: 1 out of 6
@@ -230,7 +224,7 @@ PyOpenSSL
   Author/committer as 'Brett Cannon'
   Lifetime
     Commits: 1 out of 1,402 (0.07%)
-    Ranking: 41 out of 41
+    Ranking: 31 out of 41
   Last 12 months
     Commits: 0 out of 314 (0.00%)
     Ranking: 0 out of 18
@@ -241,7 +235,7 @@ pypy
   Author/committer as 'Brett Cannon'
   Lifetime
     Commits: 1 out of 77,343 (0.00%)
-    Ranking: 266 out of 316
+    Ranking: 277 out of 316
   Last 12 months
     Commits: 0 out of 5,721 (0.00%)
     Ranking: 0 out of 70
@@ -285,10 +279,10 @@ Rust
   Author/committer as 'Brett Cannon'
   Lifetime
     Commits: 4 out of 42,628 (0.01%)
-    Ranking: 376 out of 1124
+    Ranking: 375 out of 1124
   Last 12 months
-    Commits: 3 out of 13,632 (0.02%)
-    Ranking: 252 out of 716
+    Commits: 3 out of 13,631 (0.02%)
+    Ranking: 257 out of 716
   First commit: 2013-04-03
   Latest commit: 2015-04-15
 
@@ -296,7 +290,7 @@ shields.io
   Author/committer as 'Brett Cannon'
   Lifetime
     Commits: 3 out of 746 (0.40%)
-    Ranking: 24 out of 90
+    Ranking: 21 out of 90
   Last 12 months
     Commits: 0 out of 478 (0.00%)
     Ranking: 0 out of 68
@@ -318,7 +312,7 @@ Sphinx
   Author/committer as 'Brett Cannon'
   Lifetime
     Commits: 1 out of 5,498 (0.02%)
-    Ranking: 191 out of 202
+    Ranking: 123 out of 202
   Last 12 months
     Commits: 0 out of 785 (0.00%)
     Ranking: 0 out of 48
