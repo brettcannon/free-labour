@@ -47,6 +47,8 @@ class Project:
         my_commits = self._coalesce_author(name, author_commits)
         author_order = list(self._authors_by_commit_count(author_commits))
         sorted_commits = self._sort_by_date(my_commits)
+        # XXX Do proper ranking for ties so that position doesn't shift based
+        # on hash ordering of tied committers.
         ranking = 0
         try:
             ranking = author_order.index(name) + 1
