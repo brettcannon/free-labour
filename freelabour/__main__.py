@@ -1,3 +1,4 @@
+import datetime
 import pathlib
 import sys
 
@@ -46,9 +47,9 @@ def stats(project):
                 project.analysis.past_year.ranking.everyone))
 
     if project.analysis.all.date_range is not None:
-        first_commit = project.analysis.all.date_range.first.strftime('%Y-%m-%d')
+        first_commit = project.analysis.all.date_range.first.isoformat()
         print('  First commit:', first_commit)
-        last_commit = project.analysis.all.date_range.last.strftime('%Y-%m-%d')
+        last_commit = project.analysis.all.date_range.last.isoformat()
         print('  Latest commit:', last_commit)
     print()
 
@@ -56,6 +57,20 @@ def stats(project):
 def main(conf_path):
     data = conf.read(conf_path)
     projects = conf.process(data, pathlib.Path(conf_path).parent / 'repos')
+    print()
+    total_commits = sum(map(lambda p: p.analysis.all.commit_count.me, projects))
+    first_commit = datetime.date.today()
+    last_commit = datetime.date(1978, 10, 1)
+    for project in projects:
+        first = project.analysis.all.date_range.first.date()
+        last = project.analysis.all.date_range.last.date()
+        if first < first_commit:
+            first_commit = first
+        if last > last_commit:
+            last_commit = last
+    print('Made {:,} commits across {:,} projects between {} and {}'.format(
+            total_commits, len(projects), first_commit.isoformat(),
+            last_commit.isoformat()))
     print()
     for project in sorted(projects, key=lambda project: project.name.lower()):
         stats(project)
