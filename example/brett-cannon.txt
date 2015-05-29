@@ -36,8 +36,7 @@ Angular.js
     Commits: 20 out of 6,766 (0.30%)
     Ranking: 28 out of 1350
   Last 12 months
-    Commits: 0 out of 1,799 (0.00%)
-    Ranking: 0 out of 483
+    No commits made
   First commit: 2012-07-18T14:31:53
   Latest commit: 2012-07-20T09:10:33
 
@@ -58,8 +57,7 @@ Ceylon
     Commits: 7 out of 2,528 (0.28%)
     Ranking: 15 out of 47
   Last 12 months
-    Commits: 0 out of 381 (0.00%)
-    Ranking: 0 out of 15
+    No commits made
   First commit: 2012-05-24T15:56:21
   Latest commit: 2012-05-30T11:51:46
 
@@ -69,8 +67,7 @@ coverage.py
     Commits: 8 out of 2,097 (0.38%)
     Ranking: 3 out of 33
   Last 12 months
-    Commits: 0 out of 443 (0.00%)
-    Ranking: 0 out of 12
+    No commits made
   First commit: 2011-01-28T16:53:20
   Latest commit: 2012-11-15T14:13:09
 
@@ -91,8 +88,7 @@ Dagger
     Commits: 4 out of 646 (0.62%)
     Ranking: 11 out of 39
   Last 12 months
-    Commits: 0 out of 32 (0.00%)
-    Ranking: 0 out of 6
+    No commits made
   First commit: 2012-10-23T15:12:05
   Latest commit: 2012-10-23T18:17:27
 
@@ -101,7 +97,7 @@ defusedexpat
   Lifetime
     1 commits
   Last 12 months
-    0 commits
+    No commits made
   First commit: 2013-02-12T12:37:24
   Latest commit: 2013-02-12T12:37:24
 
@@ -111,8 +107,7 @@ defusedxml
     Commits: 8 out of 132 (6.06%)
     Ranking: 2 out of 3
   Last 12 months
-    Commits: 0 out of 0 (0.00%)
-    Ranking: 0 out of 0
+    No commits made
   First commit: 2013-02-08T10:47:35
   Latest commit: 2013-02-12T18:30:07
 
@@ -122,8 +117,7 @@ devinabox
     Commits: 59 out of 61 (96.72%)
     Ranking: 1 out of 2
   Last 12 months
-    Commits: 0 out of 0 (0.00%)
-    Ranking: 0 out of 0
+    No commits made
   First commit: 2011-02-25T19:36:15
   Latest commit: 2014-03-21T12:08:18
 
@@ -132,7 +126,7 @@ Django
   Lifetime
     1 commits
   Last 12 months
-    0 commits
+    No commits made
   First commit: 2009-03-18T12:55:59
   Latest commit: 2009-03-18T12:55:59
 
@@ -141,17 +135,17 @@ Expat
   Lifetime
     1 commits
   Last 12 months
-    0 commits
+    No commits made
   First commit: 2006-06-30T23:57:29
   Latest commit: 2006-06-30T23:57:29
 
 go
   Author/committer as 'Brett Cannon'
   Lifetime
-    Commits: 1 out of 23,576 (0.00%)
+    Commits: 1 out of 23,577 (0.00%)
     Ranking: 338 out of 615
   Last 12 months
-    Commits: 1 out of 4,109 (0.02%)
+    Commits: 1 out of 4,110 (0.02%)
     Ranking: 109 out of 211
   First commit: 2015-05-08T10:41:15
   Latest commit: 2015-05-08T10:41:15
@@ -159,11 +153,10 @@ go
 Homebrew
   Author/committer as 'Brett Cannon'
   Lifetime
-    Commits: 6 out of 47,116 (0.01%)
+    Commits: 6 out of 47,118 (0.01%)
     Ranking: 474 out of 5608
   Last 12 months
-    Commits: 0 out of 14,994 (0.00%)
-    Ranking: 0 out of 1616
+    No commits made
   First commit: 2009-09-03T20:44:12
   Latest commit: 2010-09-17T00:58:37
 
@@ -173,8 +166,7 @@ Mercurial
     Commits: 1 out of 25,317 (0.00%)
     Ranking: 344 out of 623
   Last 12 months
-    Commits: 0 out of 3,566 (0.00%)
-    Ranking: 0 out of 75
+    No commits made
   First commit: 2010-04-18T17:20:08
   Latest commit: 2010-04-18T17:20:08
 
@@ -195,8 +187,7 @@ MPOS
     Commits: 2 out of 3,833 (0.05%)
     Ranking: 33 out of 86
   Last 12 months
-    Commits: 0 out of 194 (0.00%)
-    Ranking: 0 out of 10
+    No commits made
   First commit: 2014-04-05T18:12:44
   Latest commit: 2014-04-05T18:13:14
 
@@ -228,8 +219,7 @@ PyOpenSSL
     Commits: 1 out of 1,432 (0.07%)
     Ranking: 28 out of 42
   Last 12 months
-    Commits: 0 out of 343 (0.00%)
-    Ranking: 0 out of 19
+    No commits made
   First commit: 2014-02-25T11:29:05
   Latest commit: 2014-02-25T11:29:05
 
@@ -239,8 +229,7 @@ pypy
     Commits: 1 out of 77,698 (0.00%)
     Ranking: 258 out of 317
   Last 12 months
-    Commits: 0 out of 5,807 (0.00%)
-    Ranking: 0 out of 69
+    No commits made
   First commit: 2011-07-17T18:18:32
   Latest commit: 2011-07-17T18:18:32
 
@@ -294,8 +283,7 @@ shields.io
     Commits: 3 out of 770 (0.39%)
     Ranking: 22 out of 92
   Last 12 months
-    Commits: 0 out of 485 (0.00%)
-    Ranking: 0 out of 68
+    No commits made
   First commit: 2014-02-25T18:30:12
   Latest commit: 2014-02-26T15:48:17
 
@@ -316,8 +304,7 @@ Sphinx
     Commits: 1 out of 5,521 (0.02%)
     Ranking: 116 out of 202
   Last 12 months
-    Commits: 0 out of 801 (0.00%)
-    Ranking: 0 out of 48
+    No commits made
   First commit: 2007-08-15T21:50:19
   Latest commit: 2007-08-15T21:50:19
 
@@ -327,8 +314,7 @@ The Grand Unified Python Benchmark Suite
     Commits: 33 out of 220 (15.00%)
     Ranking: 3 out of 10
   Last 12 months
-    Commits: 0 out of 3 (0.00%)
-    Ranking: 0 out of 1
+    No commits made
   First commit: 2012-08-31T11:52:10
   Latest commit: 2013-08-23T13:30:30
 

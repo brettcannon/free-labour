@@ -34,7 +34,9 @@ def stats(project):
                 project.analysis.all.ranking.everyone))
 
     print('  Last 12 months')
-    if project.claimed_commits:
+    if project.analysis.past_year is None:
+        print('    No commits made')
+    elif project.claimed_commits:
         print('    {:,} commits'.format(project.analysis.past_year.commit_count.me))
     else:
         commit_stats = '{:,} out of {:,} ({})'.format(

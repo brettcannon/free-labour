@@ -58,18 +58,17 @@ class Project:
         now = datetime.datetime.now()
         year_ago = datetime.datetime(now.year - 1, now.month, now.day, now.hour,
                                      now.minute, now.second, now.microsecond)
-        # XXX if no author commits since a year ago, skip everything below.
-        past_year = list(filter(lambda commit: commit.date > year_ago, commits))
-        past_year_author_commits = self._commits_by_author(past_year)
-        try:
+        if last_commit.date < year_ago:
+            self.analysis.past_year = None
+        else:
+            past_year = list(filter(lambda commit: commit.date > year_ago, commits))
+            past_year_author_commits = self._commits_by_author(past_year)
             past_year_my_commits = past_year_author_commits[name]
-        except KeyError:
-            past_year_my_commits = []
-        ranking = self._ranking(name, past_year_author_commits)
-        self.analysis.past_year = self._create_stats(
-                None,
-                (len(past_year_my_commits), len(past_year)),
-                (ranking, len(past_year_author_commits)))
+            ranking = self._ranking(name, past_year_author_commits)
+            self.analysis.past_year = self._create_stats(
+                    None,
+                    (len(past_year_my_commits), len(past_year)),
+                    (ranking, len(past_year_author_commits)))
 
     def _create_stats(self, date_range, commit_count, ranking):
         if date_range is not None:
@@ -122,11 +121,6 @@ class Project:
                 return ranking
             ranking += len(authors)
         return 0
-
-    def _authors_by_commit_count(self, author_commits):
-        """Create an iterator of authors sorted by commit count (descending)."""
-        return sorted(author_commits.keys(),
-                      key=lambda name: len(author_commits[name]), reverse=True)
 
     def _sort_by_date(self, commits):
         """Return an iterator consisting of the commits in ascending date order."""
