@@ -28,37 +28,37 @@ https://hg.python.org/peps/
 http://selenic.com/hg
 http://selenic.com/repo/python-hglib
 
-Made 4,270 commits across 28 projects between 2003-04-19 and 2015-05-08
+Made 4,279 commits across 28 projects between 2003-04-19 and 2015-05-29
 
 Angular.js
   Author/committer as 'brettcannon'
   Lifetime
-    Commits: 20 out of 6,755 (0.30%)
+    Commits: 20 out of 6,766 (0.30%)
     Ranking: 28 out of 1350
   Last 12 months
-    Commits: 0 out of 1,851 (0.00%)
-    Ranking: 0 out of 498
+    Commits: 0 out of 1,799 (0.00%)
+    Ranking: 0 out of 483
   First commit: 2012-07-18T14:31:53
   Latest commit: 2012-07-20T09:10:33
 
 caniusepython3
   Author/committer as 'Brett Cannon'
   Lifetime
-    Commits: 248 out of 307 (80.78%)
+    Commits: 253 out of 313 (80.83%)
     Ranking: 1 out of 19
   Last 12 months
-    Commits: 104 out of 138 (75.36%)
+    Commits: 105 out of 136 (77.21%)
     Ranking: 1 out of 11
   First commit: 2014-02-14T17:05:51
-  Latest commit: 2015-05-08T10:08:42
+  Latest commit: 2015-05-29T10:00:46
 
 Ceylon
   Author/committer as 'brettcannon'
   Lifetime
     Commits: 7 out of 2,528 (0.28%)
-    Ranking: 16 out of 47
+    Ranking: 15 out of 47
   Last 12 months
-    Commits: 0 out of 386 (0.00%)
+    Commits: 0 out of 381 (0.00%)
     Ranking: 0 out of 15
   First commit: 2012-05-24T15:56:21
   Latest commit: 2012-05-30T11:51:46
@@ -66,22 +66,22 @@ Ceylon
 coverage.py
   Author/committer as 'Brett Cannon'
   Lifetime
-    Commits: 8 out of 2,086 (0.38%)
-    Ranking: 4 out of 33
+    Commits: 8 out of 2,097 (0.38%)
+    Ranking: 3 out of 33
   Last 12 months
-    Commits: 0 out of 437 (0.00%)
-    Ranking: 0 out of 13
+    Commits: 0 out of 443 (0.00%)
+    Ranking: 0 out of 12
   First commit: 2011-01-28T16:53:20
   Latest commit: 2012-11-15T14:13:09
 
 cpython
   Author/committer as 'Brett Cannon'
   Lifetime
-    Commits: 1,966 out of 96,182 (2.04%)
+    Commits: 1,966 out of 96,352 (2.04%)
     Ranking: 17 out of 192
   Last 12 months
-    Commits: 53 out of 5,398 (0.98%)
-    Ranking: 17 out of 52
+    Commits: 51 out of 5,452 (0.94%)
+    Ranking: 17 out of 53
   First commit: 2003-04-19T00:00:56
   Latest commit: 2015-04-13T16:32:16
 
@@ -89,7 +89,7 @@ Dagger
   Author/committer as 'brettcannon'
   Lifetime
     Commits: 4 out of 646 (0.62%)
-    Ranking: 12 out of 39
+    Ranking: 11 out of 39
   Last 12 months
     Commits: 0 out of 32 (0.00%)
     Ranking: 0 out of 6
@@ -148,76 +148,76 @@ Expat
 go
   Author/committer as 'Brett Cannon'
   Lifetime
-    Commits: 1 out of 23,503 (0.00%)
-    Ranking: 374 out of 614
+    Commits: 1 out of 23,576 (0.00%)
+    Ranking: 338 out of 615
   Last 12 months
-    Commits: 1 out of 4,083 (0.02%)
-    Ranking: 178 out of 210
+    Commits: 1 out of 4,109 (0.02%)
+    Ranking: 109 out of 211
   First commit: 2015-05-08T10:41:15
   Latest commit: 2015-05-08T10:41:15
 
 Homebrew
   Author/committer as 'Brett Cannon'
   Lifetime
-    Commits: 6 out of 46,691 (0.01%)
-    Ranking: 543 out of 5575
+    Commits: 6 out of 47,116 (0.01%)
+    Ranking: 474 out of 5608
   Last 12 months
-    Commits: 0 out of 14,907 (0.00%)
-    Ranking: 0 out of 1608
+    Commits: 0 out of 14,994 (0.00%)
+    Ranking: 0 out of 1616
   First commit: 2009-09-03T20:44:12
   Latest commit: 2010-09-17T00:58:37
 
 Mercurial
   Author/committer as 'Brett Cannon'
   Lifetime
-    Commits: 1 out of 25,230 (0.00%)
-    Ranking: 378 out of 623
+    Commits: 1 out of 25,317 (0.00%)
+    Ranking: 344 out of 623
   Last 12 months
-    Commits: 0 out of 3,564 (0.00%)
-    Ranking: 0 out of 76
+    Commits: 0 out of 3,566 (0.00%)
+    Ranking: 0 out of 75
   First commit: 2010-04-18T17:20:08
   Latest commit: 2010-04-18T17:20:08
 
 Modernize
   Author/committer as 'Brett Cannon'
   Lifetime
-    Commits: 77 out of 250 (30.80%)
-    Ranking: 1 out of 13
+    Commits: 77 out of 253 (30.43%)
+    Ranking: 1 out of 14
   Last 12 months
-    Commits: 77 out of 217 (35.48%)
-    Ranking: 1 out of 6
+    Commits: 77 out of 220 (35.00%)
+    Ranking: 1 out of 7
   First commit: 2014-08-29T12:13:55
   Latest commit: 2015-01-09T14:57:35
 
 MPOS
   Author/committer as 'Brett Cannon'
   Lifetime
-    Commits: 2 out of 3,828 (0.05%)
-    Ranking: 33 out of 85
+    Commits: 2 out of 3,833 (0.05%)
+    Ranking: 33 out of 86
   Last 12 months
-    Commits: 0 out of 200 (0.00%)
-    Ranking: 0 out of 9
+    Commits: 0 out of 194 (0.00%)
+    Ranking: 0 out of 10
   First commit: 2014-04-05T18:12:44
   Latest commit: 2014-04-05T18:13:14
 
 Oplop
   Author/committer as '"Brett Cannon', 'Brett Cannon', 'bcannon'
   Lifetime
-    Commits: 969 out of 999 (97.00%)
+    Commits: 973 out of 1,003 (97.01%)
     Ranking: 1 out of 6
   Last 12 months
-    Commits: 15 out of 15 (100.00%)
+    Commits: 19 out of 19 (100.00%)
     Ranking: 1 out of 1
   First commit: 2009-09-21T21:29:23
-  Latest commit: 2014-11-14T10:10:11
+  Latest commit: 2015-05-27T18:54:45
 
 pylint
   Author/committer as 'Brett Cannon'
   Lifetime
-    Commits: 40 out of 2,345 (1.71%)
+    Commits: 40 out of 2,360 (1.69%)
     Ranking: 10 out of 112
   Last 12 months
-    Commits: 40 out of 864 (4.63%)
+    Commits: 40 out of 878 (4.56%)
     Ranking: 5 out of 44
   First commit: 2014-08-29T11:05:53
   Latest commit: 2015-02-20T11:46:32
@@ -225,32 +225,32 @@ pylint
 PyOpenSSL
   Author/committer as 'Brett Cannon'
   Lifetime
-    Commits: 1 out of 1,423 (0.07%)
-    Ranking: 30 out of 41
+    Commits: 1 out of 1,432 (0.07%)
+    Ranking: 28 out of 42
   Last 12 months
-    Commits: 0 out of 335 (0.00%)
-    Ranking: 0 out of 18
+    Commits: 0 out of 343 (0.00%)
+    Ranking: 0 out of 19
   First commit: 2014-02-25T11:29:05
   Latest commit: 2014-02-25T11:29:05
 
 pypy
   Author/committer as 'Brett Cannon'
   Lifetime
-    Commits: 1 out of 77,441 (0.00%)
-    Ranking: 312 out of 317
+    Commits: 1 out of 77,698 (0.00%)
+    Ranking: 258 out of 317
   Last 12 months
-    Commits: 0 out of 5,726 (0.00%)
-    Ranking: 0 out of 71
+    Commits: 0 out of 5,807 (0.00%)
+    Ranking: 0 out of 69
   First commit: 2011-07-17T18:18:32
   Latest commit: 2011-07-17T18:18:32
 
 Python Developer's Guide
   Author/committer as 'Brett Cannon'
   Lifetime
-    Commits: 252 out of 744 (33.87%)
+    Commits: 252 out of 745 (33.83%)
     Ranking: 1 out of 49
   Last 12 months
-    Commits: 4 out of 45 (8.89%)
+    Commits: 4 out of 46 (8.70%)
     Ranking: 5 out of 16
   First commit: 2011-01-03T16:01:57
   Latest commit: 2015-03-18T17:34:25
@@ -258,11 +258,11 @@ Python Developer's Guide
 Python Enhancement Proposals
   Author/committer as 'Brett Cannon'
   Lifetime
-    Commits: 530 out of 5,868 (9.03%)
+    Commits: 530 out of 5,882 (9.01%)
     Ranking: 3 out of 103
   Last 12 months
-    Commits: 19 out of 385 (4.94%)
-    Ranking: 7 out of 24
+    Commits: 19 out of 398 (4.77%)
+    Ranking: 8 out of 24
   First commit: 2004-08-24T01:50:01
   Latest commit: 2015-04-14T12:38:41
 
@@ -272,7 +272,7 @@ python-hglib
     Commits: 18 out of 162 (11.11%)
     Ranking: 3 out of 12
   Last 12 months
-    Commits: 18 out of 37 (48.65%)
+    Commits: 18 out of 35 (51.43%)
     Ranking: 1 out of 5
   First commit: 2015-03-07T10:08:52
   Latest commit: 2015-03-27T12:58:23
@@ -280,22 +280,22 @@ python-hglib
 Rust
   Author/committer as 'Brett Cannon'
   Lifetime
-    Commits: 4 out of 42,824 (0.01%)
-    Ranking: 382 out of 1141
+    Commits: 4 out of 43,060 (0.01%)
+    Ranking: 336 out of 1157
   Last 12 months
-    Commits: 3 out of 13,712 (0.02%)
-    Ranking: 258 out of 730
+    Commits: 3 out of 13,682 (0.02%)
+    Ranking: 217 out of 740
   First commit: 2013-04-03T17:52:28
   Latest commit: 2015-04-15T15:56:01
 
 shields.io
   Author/committer as 'Brett Cannon'
   Lifetime
-    Commits: 3 out of 757 (0.40%)
-    Ranking: 27 out of 91
+    Commits: 3 out of 770 (0.39%)
+    Ranking: 22 out of 92
   Last 12 months
-    Commits: 0 out of 483 (0.00%)
-    Ranking: 0 out of 67
+    Commits: 0 out of 485 (0.00%)
+    Ranking: 0 out of 68
   First commit: 2014-02-25T18:30:12
   Latest commit: 2014-02-26T15:48:17
 
@@ -305,18 +305,18 @@ six
     Commits: 8 out of 401 (2.00%)
     Ranking: 4 out of 25
   Last 12 months
-    Commits: 8 out of 113 (7.08%)
-    Ranking: 2 out of 14
+    Commits: 8 out of 112 (7.14%)
+    Ranking: 2 out of 13
   First commit: 2014-10-03T14:13:36
   Latest commit: 2015-03-03T15:59:23
 
 Sphinx
   Author/committer as 'Brett Cannon'
   Lifetime
-    Commits: 1 out of 5,520 (0.02%)
-    Ranking: 137 out of 202
+    Commits: 1 out of 5,521 (0.02%)
+    Ranking: 116 out of 202
   Last 12 months
-    Commits: 0 out of 807 (0.00%)
+    Commits: 0 out of 801 (0.00%)
     Ranking: 0 out of 48
   First commit: 2007-08-15T21:50:19
   Latest commit: 2007-08-15T21:50:19
