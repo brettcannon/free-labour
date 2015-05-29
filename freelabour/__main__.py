@@ -29,9 +29,8 @@ def stats(project):
                 project.analysis.all.commit_count.everyone,
                 percentage_str(project.analysis.all.commit_count))
         print('    Commits:', commit_stats)
-        print('    Ranking: {} out of {}'.format(
-                project.analysis.all.ranking.me,
-                project.analysis.all.ranking.everyone))
+        if len(names) == 1:
+            print('    Ranking:', project.analysis.all.ranking.me)
 
     print('  Last 12 months')
     if project.analysis.past_year is None:
@@ -44,9 +43,8 @@ def stats(project):
                 project.analysis.past_year.commit_count.everyone,
                 percentage_str(project.analysis.past_year.commit_count))
         print('    Commits:', commit_stats)
-        print('    Ranking: {} out of {}'.format(
-                project.analysis.past_year.ranking.me,
-                project.analysis.past_year.ranking.everyone))
+        if len(names) == 1:
+            print('    Ranking:', project.analysis.past_year.ranking.me)
 
     if project.analysis.all.date_range is not None:
         first_commit = project.analysis.all.date_range.first.isoformat()

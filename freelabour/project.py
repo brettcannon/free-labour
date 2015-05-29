@@ -46,14 +46,14 @@ class Project:
         author_commits = self._commits_by_author(commits)
         my_commits = self._coalesce_author(name, author_commits)
         sorted_commits = self._sort_by_date(my_commits)
-        ranking = self._ranking(name, author_commits)
+        my_ranking, last_place = self._ranking(name, author_commits)
         first_commit = sorted_commits[0] if my_commits else None
         last_commit = sorted_commits[-1] if my_commits else None
         self.analysis.all = self._create_stats(
                 (first_commit.date, last_commit.date)
                     if last_commit is not None else None,
                 (len(my_commits), len(commits)),
-                (ranking, len(author_commits)))
+                (my_ranking, last_place))
 
         now = datetime.datetime.now()
         year_ago = datetime.datetime(now.year - 1, now.month, now.day, now.hour,
@@ -64,11 +64,11 @@ class Project:
             past_year = list(filter(lambda commit: commit.date > year_ago, commits))
             past_year_author_commits = self._commits_by_author(past_year)
             past_year_my_commits = past_year_author_commits[name]
-            ranking = self._ranking(name, past_year_author_commits)
+            my_ranking, last_place = self._ranking(name, past_year_author_commits)
             self.analysis.past_year = self._create_stats(
                     None,
                     (len(past_year_my_commits), len(past_year)),
-                    (ranking, len(past_year_author_commits)))
+                    (my_ranking, last_place))
 
     def _create_stats(self, date_range, commit_count, ranking):
         if date_range is not None:
@@ -110,17 +110,22 @@ class Project:
         return commits_by_author.get(name, [])
 
     def _ranking(self, person, author_commits):
+        """Calculate the ranking of someone."""
         count_to_author = {}
         for author, commits in author_commits.items():
             commit_count = len(commits)
             count_to_author.setdefault(commit_count, list()).append(author)
         ranking = 1
-        for count in sorted(count_to_author.keys(), reverse=True):
+        count_order = list(sorted(count_to_author.keys(), reverse=True))
+        for count in count_order:
             authors = count_to_author[count]
             if person in authors:
-                return ranking
+                break
             ranking += len(authors)
-        return 0
+        last_place = 1
+        for count in count_order[:-1]:
+            last_place += len(count_to_author[count])
+        return ranking, last_place
 
     def _sort_by_date(self, commits):
         """Return an iterator consisting of the commits in ascending date order."""
