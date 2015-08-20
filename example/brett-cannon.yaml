@@ -63,6 +63,9 @@ repositories:
 
 - url: https://github.com/homebrew/homebrew.git
   name: Homebrew
+
+- url: https://github.com/jupyter/jupyter.github.io.git
+  name: jupyter.org
   
 - url: https://github.com/matplotlib/matplotlib.git
   name: matplotlib
