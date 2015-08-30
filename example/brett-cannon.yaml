@@ -70,6 +70,9 @@ repositories:
 - url: https://github.com/matplotlib/matplotlib.git
   name: matplotlib
   
+- url: https://github.com/Microsoft/TypeScript-Handbook.git
+  name: TypeScript Handbook
+  
 - url: https://github.com/Microsoft/TypeScript-wiki.git
   name: TypeScript wiki
 
