@@ -41,6 +41,9 @@ repositories:
 
 - url: https://github.com/angular/angular.js.git
   name: Angular.js
+  
+- url: https://github.com/Azure/azure-documentdb-python.git
+  name: Azure DocumentDB
 
 - url: https://github.com/brettcannon/caniusepython3.git
   name: caniusepython3
