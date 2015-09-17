@@ -55,9 +55,6 @@ repositories:
 
 - url: https://github.com/ceylon/ceylon-lang.org.git
   name: Ceylon
-  
-- url: https://github.com/DinoV/Pyjion.git
-  name: Pyjion
 
 - url: https://github.com/django/django.git
   name: Django
@@ -75,6 +72,9 @@ repositories:
   
 - url: https://github.com/matplotlib/matplotlib.git
   name: matplotlib
+  
+- url: https://github.com/Microsoft/Pyjion.git
+  name: Pyjion
   
 - url: https://github.com/Microsoft/TypeScript-Handbook.git
   name: TypeScript Handbook
