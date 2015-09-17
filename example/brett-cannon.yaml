@@ -45,6 +45,9 @@ repositories:
 - url: https://github.com/aosabook/500lines.git
   name: 500 Lines or Less
   
+- url: https://github.com/aurelia/documentation.git
+  name: Aurelia documentation
+  
 - url: https://github.com/Azure/azure-documentdb-python.git
   name: Azure DocumentDB
 
