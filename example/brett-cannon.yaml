@@ -76,6 +76,9 @@ repositories:
 - url: https://github.com/jupyter/jupyter.github.io.git
   name: jupyter.org
   
+- url: https://github.com/kennethreitz/python-guide.git
+  name: Hitchhiker's Guide to Python
+  
 - url: https://github.com/matplotlib/matplotlib.git
   name: matplotlib
   
