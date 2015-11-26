@@ -99,6 +99,9 @@ repositories:
 
 - url: https://github.com/MPOS/php-mpos.git
   name: MPOS
+  
+- url: https://github.com/progit/progit2.git
+  name: Pro Git, Second Edition
 
 - url: https://github.com/pyca/pyopenssl.git
   name: PyOpenSSL
