@@ -123,6 +123,9 @@ repositories:
 
 - url: https://github.com/square/dagger.git
   name: Dagger
+  
+- url: https://github.com/WebAssembly/design.git
+  name: WebAssembly design doc
 
 - url: https://go.googlesource.com/go
 
