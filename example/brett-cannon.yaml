@@ -62,6 +62,9 @@ repositories:
 - url: https://github.com/ceylon/ceylon-lang.org.git
   name: Ceylon
   
+- url: https://github.com/chhantyal/py3readiness.git
+  name: py3readiness.org
+  
 - url: https://github.com/dabeaz/curio.git
   name: Curio
 
