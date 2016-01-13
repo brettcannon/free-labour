@@ -88,6 +88,9 @@ repositories:
 - url: https://github.com/kennethreitz/python-guide.git
   name: Hitchhiker's Guide to Python
   
+- url: https://github.com/Lukasa/language-restructuredtext
+  name: reStructuredText language support for Atom
+  
 - url: https://github.com/matplotlib/matplotlib.git
   name: matplotlib
   
