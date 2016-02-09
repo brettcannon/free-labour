@@ -78,6 +78,9 @@ repositories:
 
 - url: https://github.com/homebrew/homebrew.git
   name: Homebrew
+  
+- url: https://github.com/python-hyper/hyper-h2.git
+  name: hyper-h2
 
 - url: https://github.com/jupyter/jupyter.github.io.git
   name: jupyter.org
