@@ -112,7 +112,7 @@ repositories:
 - url: https://github.com/Microsoft/TypeScript-wiki.git
   name: TypeScript wiki
   
-- url: https://github.com/Microsoft/vscode-docs
+- url: https://github.com/Microsoft/vscode-docs.git
   name: Visual Studio Code documentation
 
 - url: https://github.com/MPOS/php-mpos.git
