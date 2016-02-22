@@ -91,6 +91,9 @@ repositories:
 - url: https://github.com/jupyter/notebook.git
   name: Jupyter Notebook
   
+- url: https://github.com/KeepSafe/aiohttp.git
+  name: aiohttp
+  
 - url: https://github.com/kennethreitz/python-guide.git
   name: Hitchhiker's Guide to Python
   
