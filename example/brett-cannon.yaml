@@ -126,6 +126,9 @@ repositories:
 
 - url: https://github.com/pyca/pyopenssl.git
   name: PyOpenSSL
+  
+- url: https://github.com/python/mypy.git
+  name: mypy
 
 - url: https://github.com/python-modernize/python-modernize.git
   name: Modernize
