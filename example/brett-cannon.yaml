@@ -132,6 +132,9 @@ repositories:
   
 - url: https://github.com/python/mypy.git
   name: mypy
+  
+- url: https://github.com/python/the-knights-who-say-ni.git
+  name: The Knights Who Say "Ni"
 
 - url: https://github.com/python-modernize/python-modernize.git
   name: Modernize
