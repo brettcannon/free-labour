@@ -78,6 +78,9 @@ repositories:
 
 - url: https://github.com/gittip/shields.io.git
   name: shields.io
+  
+- url: https://github.com/grempe/diceware.git
+  name: https://www.rempe.us/diceware
 
 - url: https://github.com/homebrew/homebrew.git
   name: Homebrew
