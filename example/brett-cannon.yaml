@@ -151,6 +151,9 @@ repositories:
 - url: https://github.com/square/dagger.git
   name: Dagger
   
+- url: https://github.com/syl20bnr/spacemacs.git
+  name: Spacemacs
+  
 - url: https://github.com/topazproject/topaz.git
   name: Topaz
   
