@@ -70,6 +70,9 @@ repositories:
   
 - url: https://github.com/dabeaz/curio.git
   name: Curio
+  
+- url: https://github.com/dotnet/core-docs.git
+  name: .NET Core Documentation
 
 - url: https://github.com/django/django.git
   name: Django
