@@ -61,3 +61,6 @@ venv/
 
 # Example generation
 example/repos/
+
+# VS Code
+.vscode/
