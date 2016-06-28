@@ -139,6 +139,9 @@ repositories:
 
 - url: https://github.com/python/peps
   name: Python Enhancement Proposals
+  
+- url: https://github.com/python/typeshed.git
+  name: Typeshed
 
 - url: https://github.com/python/typing.git
   name: typing.py
