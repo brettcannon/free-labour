@@ -4,6 +4,7 @@ import enum
 import functools
 import hashlib
 import pathlib
+import sys
 import types
 
 import hglib
@@ -33,17 +34,18 @@ class Repo(metaclass=abc.ABCMeta):
         cls.supported[subclass.type] = subclass
 
     @classmethod
-    def get(cls, type_: str, remote: str, dest_parent: str):
+    def get(cls, type_: str, remote: str, dest_parent: str, *, branch=None):
         """Get a repo based on its type, remote URL, and eventual parent directory."""
         try:
             repo_enum = Supported[type_]
             repo_class = cls.supported[repo_enum]
         except KeyError:
             raise ValueError(repr(type_) + ' is an unsupported repository type')
-        return repo_class(remote, pathlib.Path(dest_parent))
+        return repo_class(remote, pathlib.Path(dest_parent), branch=branch)
 
-    def __init__(self, remote: str, parent_path: pathlib.Path):
+    def __init__(self, remote: str, parent_path: pathlib.Path, *, branch=None):
         self.remote = remote
+        self.branch = branch
         hashed_remote = hashlib.sha1(remote.encode('utf-8')).hexdigest()
         self.directory = parent_path / hashed_remote
         self.claimed_commits = []
@@ -52,7 +54,12 @@ class Repo(metaclass=abc.ABCMeta):
 
     def __enter__(self):
         if not self.directory.exists():
-            self.clone()
+            try:
+                self.clone()
+            except Exception:
+                print('Exception while cloning {!r}'.format(self.remote),
+                      file=sys.stderr)
+                raise
         else:
             self.update()
 
@@ -99,7 +106,10 @@ class Hg(Repo):
         return author.partition('<')[0].strip()
 
     def clone(self):
-        self._client = hglib.clone(self.remote, str(self.directory))
+        kwargs = {}
+        if self.branch:
+            kwargs['branch'] = self.branch
+        self._client = hglib.clone(self.remote, str(self.directory), **kwargs)
         self._client.open()
 
     def update(self):
@@ -124,7 +134,11 @@ class Git(Repo):
     type = Supported.git
 
     def clone(self):
-        self._repo = git.Repo.clone_from(self.remote, str(self.directory))
+        kwargs = {}
+        if self.branch:
+            kwargs['branch'] = self.branch
+        self._repo = git.Repo.clone_from(self.remote, str(self.directory),
+                                         **kwargs)
 
     def update(self):
         self._repo = git.Repo(str(self.directory))

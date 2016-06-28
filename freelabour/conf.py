@@ -45,10 +45,15 @@ def process(data, dest_parent):
                 type_ = repository.get('type')
                 if type_ is None:
                     type_ = repo_type(domain_mapping, url)
+                kwargs = {}
+                if 'branch' in repository:
+                    kwargs['branch'] = repository['branch']
                 try:
-                    f = pool.submit(repo.Repo.get, type_, url, dest_parent)
+                    f = pool.submit(repo.Repo.get, type_, url, dest_parent,
+                                    **kwargs)
                     future_repos.add(f)
-                    print(url)
+                    print(url +
+                          (':' + kwargs['branch'] if 'branch' in kwargs else ''))
                 except ValueError as exc:
                     print('{}: {}'.format(url, str(exc)))
                     continue

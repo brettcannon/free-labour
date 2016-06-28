@@ -21,30 +21,14 @@ def stats(project):
         names = sorted(map(repr, project.found_names))
         print('  Author/committer as', ', '.join(names))
     print('  Lifetime')
-    if project.claimed_commits:
-        print('    {:,} commits'.format(project.analysis.all.commit_count.me))
-    else:
-        commit_stats = '{:,} out of {:,} ({})'.format(
-                project.analysis.all.commit_count.me,
-                project.analysis.all.commit_count.everyone,
-                percentage_str(project.analysis.all.commit_count))
-        print('    Commits:', commit_stats)
-        if len(names) == 1:
-            print('    Ranking:', project.analysis.all.ranking.me)
+    print('    {:,} commits'.format(project.analysis.all.commit_count.me))
 
     print('  Last 12 months')
     if project.analysis.past_year is None:
         print('    No commits made')
-    elif project.claimed_commits:
-        print('    {:,} commits'.format(project.analysis.past_year.commit_count.me))
     else:
-        commit_stats = '{:,} out of {:,} ({})'.format(
-                project.analysis.past_year.commit_count.me,
-                project.analysis.past_year.commit_count.everyone,
-                percentage_str(project.analysis.past_year.commit_count))
-        print('    Commits:', commit_stats)
-        if len(names) == 1:
-            print('    Ranking:', project.analysis.past_year.ranking.me)
+        print('    {:,} commits'.format(
+                                    project.analysis.past_year.commit_count.me))
 
     if project.analysis.all.date_range is not None:
         first_commit = project.analysis.all.date_range.first.isoformat()
@@ -62,12 +46,21 @@ def main(conf_path):
     first_commit = datetime.date.today()
     last_commit = datetime.date(1978, 10, 1)
     for project in projects:
-        first = project.analysis.all.date_range.first.date()
-        last = project.analysis.all.date_range.last.date()
-        if first < first_commit:
-            first_commit = first
-        if last > last_commit:
-            last_commit = last
+        date_range = project.analysis.all.date_range
+        if date_range is None:
+            print('{!r} has no commits by me'.format(project.name),
+                  file=sys.stderr)
+            continue
+        first = None
+        if date_range.first is not None:
+            first = project.analysis.all.date_range.first.date()
+            if first < first_commit:
+                first_commit = first
+        last = None
+        if date_range.last is not None:
+            last = project.analysis.all.date_range.last.date()
+            if last > last_commit:
+                last_commit = last
     print('Made {:,} commits across {:,} projects between {} and {}'.format(
             total_commits, len(projects), first_commit.isoformat(),
             last_commit.isoformat()))

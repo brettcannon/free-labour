@@ -58,12 +58,12 @@ class Project:
         now = datetime.datetime.now()
         year_ago = datetime.datetime(now.year - 1, now.month, now.day, now.hour,
                                      now.minute, now.second, now.microsecond)
-        if last_commit.date < year_ago:
+        if last_commit is not None and last_commit.date < year_ago:
             self.analysis.past_year = None
         else:
             past_year = list(filter(lambda commit: commit.date > year_ago, commits))
             past_year_author_commits = self._commits_by_author(past_year)
-            past_year_my_commits = past_year_author_commits[name]
+            past_year_my_commits = past_year_author_commits.get(name, [])
             my_ranking, last_place = self._ranking(name, past_year_author_commits)
             self.analysis.past_year = self._create_stats(
                     None,

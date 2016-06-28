@@ -25,7 +25,7 @@ repositories:
 
 - url: https://bitbucket.org/tiran/defusedexpat
   commits:
-  - 55da36f0c56af1e4d682d097088d5530b39a6abc
+    - 55da36f0c56af1e4d682d097088d5530b39a6abc
 
 - url: https://bitbucket.org/tiran/defusedxml
 
@@ -41,16 +41,16 @@ repositories:
 
 - url: https://github.com/angular/angular.js.git
   name: Angular.js
-  
+
 - url: https://github.com/aosabook/500lines.git
   name: 500 Lines or Less
-  
+
 - url: https://github.com/aurelia/documentation.git
   name: Aurelia documentation
-  
+
 - url: https://github.com/Azure/azure-documentdb-python.git
   name: Azure DocumentDB
-  
+
 - url: https://github.com/bagder/http2-explained.git
   name: http2 explained
 
@@ -64,15 +64,16 @@ repositories:
 
 - url: https://github.com/ceylon/ceylon-lang.org.git
   name: Ceylon
-  
+
 - url: https://github.com/chhantyal/py3readiness.git
   name: py3readiness.org
-  
+
 - url: https://github.com/dabeaz/curio.git
   name: Curio
-  
+
 - url: https://github.com/dotnet/core-docs.git
   name: .NET Core Documentation
+  branch: live
 
 - url: https://github.com/django/django.git
   name: Django
@@ -81,69 +82,75 @@ repositories:
 
 - url: https://github.com/gittip/shields.io.git
   name: shields.io
-  
+
 - url: https://github.com/grempe/diceware.git
   name: https://www.rempe.us/diceware
 
 - url: https://github.com/homebrew/homebrew.git
   name: Homebrew
-  
-- url: https://github.com/python-hyper/hyper-h2.git
-  name: hyper-h2
 
 - url: https://github.com/jupyter/jupyter.github.io.git
   name: jupyter.org
-  
+
 - url: https://github.com/jupyter/notebook.git
   name: Jupyter Notebook
-  
+
 - url: https://github.com/KeepSafe/aiohttp.git
   name: aiohttp
-  
+
 - url: https://github.com/kennethreitz/python-guide.git
   name: Hitchhiker's Guide to Python
-  
+
 - url: https://github.com/lextm/vscode-restructuredtext.git
   name: reStructuredText Language Support for Visual Studio Code
-  
+
 - url: https://github.com/lextm/vscode-restructuredtext.git
   name: reStructuredText Language Support for Atom
-  
+
 - url: https://github.com/matplotlib/matplotlib.git
   name: matplotlib
-  
+
 - url: https://github.com/Microsoft/Pyjion.git
   name: Pyjion
-  
+
 - url: https://github.com/Microsoft/TypeScript-Handbook.git
   name: TypeScript Handbook
-  
+
 - url: https://github.com/Microsoft/TypeScript-wiki.git
   name: TypeScript wiki
-  
+
 - url: https://github.com/Microsoft/vscode-docs.git
   name: Visual Studio Code documentation
 
 - url: https://github.com/MPOS/php-mpos.git
   name: MPOS
-  
+
 - url: https://github.com/progit/progit2.git
   name: Pro Git, Second Edition
 
 - url: https://github.com/pyca/pyopenssl.git
   name: PyOpenSSL
-  
+
+- url: https://github.com/python/devinabox.git
+  name: devinabox
+
 - url: https://github.com/python/mypy.git
   name: mypy
-  
+
+- url: https://github.com/python/peps
+  name: Python Enhancement Proposals
+
 - url: https://github.com/python/typing.git
   name: typing.py
-  
+
 - url: https://github.com/python/the-knights-who-say-ni.git
   name: The Knights Who Say "Ni"
 
 - url: https://github.com/python-modernize/python-modernize.git
   name: Modernize
+
+- url: https://github.com/python-hyper/hyper-h2.git
+  name: hyper-h2
 
 - url: https://github.com/rust-lang/rust.git
   name: Rust
@@ -153,13 +160,14 @@ repositories:
 
 - url: https://github.com/square/dagger.git
   name: Dagger
-  
+
 - url: https://github.com/syl20bnr/spacemacs.git
   name: Spacemacs
-  
+  branch: develop
+
 - url: https://github.com/topazproject/topaz.git
   name: Topaz
-  
+
 - url: https://github.com/WebAssembly/design.git
   name: WebAssembly design doc
 
@@ -172,11 +180,6 @@ repositories:
 
 - url: https://hg.python.org/devguide/
   name: Python Developer's Guide
-
-- url: https://hg.python.org/devinabox/
-
-- url: https://hg.python.org/peps/
-  name: Python Enhancement Proposals
 
 - url: http://selenic.com/hg
   name: Mercurial
