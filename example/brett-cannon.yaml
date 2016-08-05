@@ -44,6 +44,9 @@ repositories:
 
 - url: https://github.com/aosabook/500lines.git
   name: 500 Lines or Less
+  
+- url: https://github.com/audreyr/cookiecutter.git
+  name: Cookiecutter
 
 - url: https://github.com/aurelia/documentation.git
   name: Aurelia documentation
@@ -133,6 +136,9 @@ repositories:
 
 - url: https://github.com/pyca/pyopenssl.git
   name: PyOpenSSL
+  
+- url: https://github.com/pypa/python-packaging-user-guide.git
+  name: packaging.python.org
 
 - url: https://github.com/python/devinabox.git
   name: devinabox
