@@ -38,7 +38,7 @@ https://github.com/MPOS/php-mpos.git
 https://github.com/progit/progit2.git
 https://github.com/pyca/pyopenssl.git
 https://github.com/pypa/python-packaging-user-guide.git
-https://github.com/python/devguide
+https://github.com/python/devguide.git
 https://github.com/python/devinabox.git
 https://github.com/python/mypy.git
 https://github.com/python/peps
