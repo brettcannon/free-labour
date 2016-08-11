@@ -19,9 +19,6 @@ class Project:
         - counts
           - me
           - everyone
-        - rank
-          - me
-          - everyone
       - past_year (attributes same as 'all')
     """
 
@@ -46,14 +43,12 @@ class Project:
         author_commits = self._commits_by_author(commits)
         my_commits = self._coalesce_author(name, author_commits)
         sorted_commits = self._sort_by_date(my_commits)
-        my_ranking, last_place = self._ranking(name, author_commits)
         first_commit = sorted_commits[0] if my_commits else None
         last_commit = sorted_commits[-1] if my_commits else None
         self.analysis.all = self._create_stats(
                 (first_commit.date, last_commit.date)
                     if last_commit is not None else None,
-                (len(my_commits), len(commits)),
-                (my_ranking, last_place))
+                (len(my_commits), len(commits)))
 
         now = datetime.datetime.now()
         year_ago = datetime.datetime(now.year - 1, now.month, now.day, now.hour,
@@ -64,22 +59,19 @@ class Project:
             past_year = list(filter(lambda commit: commit.date > year_ago, commits))
             past_year_author_commits = self._commits_by_author(past_year)
             past_year_my_commits = past_year_author_commits.get(name, [])
-            my_ranking, last_place = self._ranking(name, past_year_author_commits)
             self.analysis.past_year = self._create_stats(
                     None,
-                    (len(past_year_my_commits), len(past_year)),
-                    (my_ranking, last_place))
+                    (len(past_year_my_commits), len(past_year)))
 
-    def _create_stats(self, date_range, commit_count, ranking):
+    def _create_stats(self, date_range, commit_count):
         if date_range is not None:
             dates = types.SimpleNamespace(first=date_range[0], last=date_range[1])
         else:
             dates = None
         counts = types.SimpleNamespace(me=commit_count[0],
                                        everyone=commit_count[1])
-        rank = types.SimpleNamespace(me=ranking[0], everyone=ranking[1])
         return types.SimpleNamespace(date_range=dates,
-                                     commit_count=counts, ranking=rank)
+                                     commit_count=counts)
 
     def _commits_by_author(self, commits):
         """Bucket commits by author."""
@@ -108,24 +100,6 @@ class Project:
             commits_by_author.setdefault(name, []).extend(found_commits)
             del commits_by_author[found_name]
         return commits_by_author.get(name, [])
-
-    def _ranking(self, person, author_commits):
-        """Calculate the ranking of someone."""
-        count_to_author = {}
-        for author, commits in author_commits.items():
-            commit_count = len(commits)
-            count_to_author.setdefault(commit_count, list()).append(author)
-        ranking = 1
-        count_order = list(sorted(count_to_author.keys(), reverse=True))
-        for count in count_order:
-            authors = count_to_author[count]
-            if person in authors:
-                break
-            ranking += len(authors)
-        last_place = 1
-        for count in count_order[:-1]:
-            last_place += len(count_to_author[count])
-        return ranking, last_place
 
     def _sort_by_date(self, commits):
         """Return an iterator consisting of the commits in ascending date order."""
