@@ -44,7 +44,7 @@ repositories:
 
 - url: https://github.com/aosabook/500lines.git
   name: 500 Lines or Less
-  
+
 - url: https://github.com/audreyr/cookiecutter.git
   name: Cookiecutter
 
@@ -73,8 +73,8 @@ repositories:
 
 - url: https://github.com/dabeaz/curio.git
   name: Curio
-  
-- url :https://github.com/DonJayamanne/pythonVSCode.git
+
+- url: https://github.com/DonJayamanne/pythonVSCode.git
   name: Python extension for VS Code
 
 - url: https://github.com/dotnet/core-docs.git
@@ -136,9 +136,12 @@ repositories:
 
 - url: https://github.com/pyca/pyopenssl.git
   name: PyOpenSSL
-  
+
 - url: https://github.com/pypa/python-packaging-user-guide.git
   name: packaging.python.org
+
+- url: https://github.com/python/devguide.git
+  name: Python Developer's Guide
 
 - url: https://github.com/python/devinabox.git
   name: devinabox
@@ -148,7 +151,7 @@ repositories:
 
 - url: https://github.com/python/peps
   name: Python Enhancement Proposals
-  
+
 - url: https://github.com/python/typeshed.git
   name: Typeshed
 
@@ -189,9 +192,6 @@ repositories:
   name: The Grand Unified Python Benchmark Suite
 
 - url: https://hg.python.org/cpython/
-
-- url: https://hg.python.org/devguide/
-  name: Python Developer's Guide
 
 - url: http://selenic.com/hg
   name: Mercurial

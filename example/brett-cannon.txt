@@ -7,6 +7,7 @@ https://bitbucket.org/tiran/defusedxml
 http://git.code.sf.net/p/expat/code_git
 https://github.com/angular/angular.js.git
 https://github.com/aosabook/500lines.git
+https://github.com/audreyr/cookiecutter.git
 https://github.com/aurelia/documentation.git
 https://github.com/Azure/azure-documentdb-python.git
 https://github.com/bagder/http2-explained.git
@@ -16,6 +17,7 @@ https://bitbucket.org/brettcannon/old-oplop
 https://github.com/ceylon/ceylon-lang.org.git
 https://github.com/chhantyal/py3readiness.git
 https://github.com/dabeaz/curio.git
+https://github.com/DonJayamanne/pythonVSCode.git
 https://github.com/dotnet/core-docs.git:live
 https://github.com/django/django.git
 https://github.com/gittip/shields.io.git
@@ -35,9 +37,12 @@ https://github.com/Microsoft/vscode-docs.git
 https://github.com/MPOS/php-mpos.git
 https://github.com/progit/progit2.git
 https://github.com/pyca/pyopenssl.git
+https://github.com/pypa/python-packaging-user-guide.git
+https://github.com/python/devguide
 https://github.com/python/devinabox.git
 https://github.com/python/mypy.git
 https://github.com/python/peps
+https://github.com/python/typeshed.git
 https://github.com/python/typing.git
 https://github.com/python/the-knights-who-say-ni.git
 https://github.com/python-modernize/python-modernize.git
@@ -51,11 +56,10 @@ https://github.com/WebAssembly/design.git
 https://go.googlesource.com/go
 https://hg.python.org/benchmarks/
 https://hg.python.org/cpython/
-https://hg.python.org/devguide/
 http://selenic.com/hg
 http://selenic.com/repo/python-hglib
 
-Made 5,046 commits across 55 projects between 2003-04-18 and 2016-06-27
+Made 5,118 commits across 59 projects between 2003-04-18 and 2016-08-10
 
 .NET Core Documentation
   Author/committer as 'Brett Cannon'
@@ -114,11 +118,11 @@ Azure DocumentDB
 caniusepython3
   Author/committer as 'Brett Cannon'
   Lifetime
-    325 commits
+    338 commits
   Last 12 months
-    69 commits
+    81 commits
   First commit: 2014-02-14T14:05:51
-  Latest commit: 2016-06-22T09:35:28
+  Latest commit: 2016-08-08T09:59:42
 
 Ceylon
   Author/committer as 'brettcannon'
@@ -128,6 +132,15 @@ Ceylon
     No commits made
   First commit: 2012-05-24T12:56:21
   Latest commit: 2012-05-30T08:51:46
+
+Cookiecutter
+  Author/committer as 'Brett Cannon'
+  Lifetime
+    2 commits
+  Last 12 months
+    2 commits
+  First commit: 2016-07-29T11:33:23
+  Latest commit: 2016-07-29T14:27:36
 
 coverage.py
   Author/committer as 'Brett Cannon'
@@ -141,20 +154,20 @@ coverage.py
 cpython
   Author/committer as 'Brett Cannon'
   Lifetime
-    2,072 commits
+    2,089 commits
   Last 12 months
-    106 commits
+    123 commits
   First commit: 2003-04-18T21:00:56
-  Latest commit: 2016-06-25T10:58:17
+  Latest commit: 2016-07-16T10:46:10
 
 Curio
   Author/committer as 'Brett Cannon'
   Lifetime
-    22 commits
+    34 commits
   Last 12 months
-    22 commits
+    34 commits
   First commit: 2015-11-01T13:05:40
-  Latest commit: 2016-06-15T12:32:53
+  Latest commit: 2016-07-04T15:13:01
 
 Dagger
   Author/committer as 'brettcannon'
@@ -336,6 +349,15 @@ Oplop
   First commit: 2009-09-21T18:29:23
   Latest commit: 2016-03-05T21:45:39
 
+packaging.python.org
+  Author/committer as 'Brett Cannon'
+  Lifetime
+    2 commits
+  Last 12 months
+    1 commits
+  First commit: 2013-07-17T14:37:32
+  Latest commit: 2016-08-05T11:07:44
+
 Pro Git, Second Edition
   Author/committer as 'Brett Cannon'
   Lifetime
@@ -393,20 +415,29 @@ pypy
 Python Developer's Guide
   Author/committer as 'Brett Cannon'
   Lifetime
-    257 commits
+    263 commits
   Last 12 months
-    5 commits
+    10 commits
   First commit: 2011-01-03T13:01:57
-  Latest commit: 2016-05-02T10:56:37
+  Latest commit: 2016-07-24T09:16:38
 
 Python Enhancement Proposals
   Author/committer as 'Brett Cannon'
   Lifetime
-    599 commits
+    609 commits
   Last 12 months
-    69 commits
+    76 commits
   First commit: 2004-08-23T22:50:01
-  Latest commit: 2016-06-27T11:00:20
+  Latest commit: 2016-08-10T09:38:18
+
+Python extension for VS Code
+  Author/committer as 'Brett Cannon'
+  Lifetime
+    1 commits
+  Last 12 months
+    1 commits
+  First commit: 2016-07-19T13:34:53
+  Latest commit: 2016-07-19T13:34:53
 
 python-hglib
   Author/committer as 'Brett Cannon'
@@ -438,11 +469,11 @@ reStructuredText Language Support for Visual Studio Code
 Rust
   Author/committer as 'Brett Cannon'
   Lifetime
-    4 commits
+    5 commits
   Last 12 months
-    No commits made
+    1 commits
   First commit: 2013-04-03T14:52:28
-  Latest commit: 2015-04-15T12:56:01
+  Latest commit: 2016-07-28T19:02:25
 
 shields.io
   Author/committer as 'Brett Cannon'
@@ -492,11 +523,11 @@ The Grand Unified Python Benchmark Suite
 The Knights Who Say "Ni"
   Author/committer as 'Brett Cannon'
   Lifetime
-    117 commits
+    121 commits
   Last 12 months
-    117 commits
+    121 commits
   First commit: 2016-01-23T12:30:38
-  Latest commit: 2016-06-20T15:13:36
+  Latest commit: 2016-07-22T11:21:54
 
 Topaz
   Author/committer as 'Brett Cannon'
@@ -524,6 +555,15 @@ TypeScript wiki
     2 commits
   First commit: 2015-08-28T19:10:25
   Latest commit: 2015-08-28T19:18:01
+
+Typeshed
+  Author/committer as 'Brett Cannon'
+  Lifetime
+    4 commits
+  Last 12 months
+    4 commits
+  First commit: 2016-06-28T09:30:15
+  Latest commit: 2016-07-01T10:32:23
 
 typing.py
   Author/committer as 'Brett Cannon'
