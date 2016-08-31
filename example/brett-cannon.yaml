@@ -163,6 +163,9 @@ repositories:
 
 - url: https://github.com/python-modernize/python-modernize.git
   name: Modernize
+  
+- url: https://github.com/riscv/riscv-tests.git
+  name: RISC-V tests
 
 - url: https://github.com/python-hyper/hyper-h2.git
   name: hyper-h2
