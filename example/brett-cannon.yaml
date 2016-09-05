@@ -163,15 +163,18 @@ repositories:
 
 - url: https://github.com/python-modernize/python-modernize.git
   name: Modernize
-  
-- url: https://github.com/riscv/riscv-tests.git
-  name: RISC-V tests
 
 - url: https://github.com/python-hyper/hyper-h2.git
   name: hyper-h2
 
+- url: https://github.com/riscv/riscv-tests.git
+  name: RISC-V tests
+
 - url: https://github.com/rust-lang/rust.git
   name: Rust
+  
+- url: https://github.com/rust-lang-nursery/rustfmt.git
+  name: rustfmt
 
 - url: https://github.com/sphinx-doc/sphinx.git
   name: Sphinx
