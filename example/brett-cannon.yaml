@@ -44,6 +44,9 @@ repositories:
 
 - url: https://github.com/aosabook/500lines.git
   name: 500 Lines or Less
+  
+- url: https://github.com/asyncio-doc/asyncio-doc
+  name: https://asyncio.readthedocs.io
 
 - url: https://github.com/audreyr/cookiecutter.git
   name: Cookiecutter
@@ -64,6 +67,9 @@ repositories:
     - https://github.com/brettcannon/oplop.git
     - https://bitbucket.org/brettcannon/old-oplop
   name: Oplop
+  
+- url: https://github.com/brettcannon/sans-io.git
+  name: https://sans-io.readthedocs.io
 
 - url: https://github.com/ceylon/ceylon-lang.org.git
   name: Ceylon
@@ -191,6 +197,9 @@ repositories:
 
 - url: https://github.com/WebAssembly/design.git
   name: WebAssembly design doc
+  
+- url: https://github.com/Which-Film/which-film.info.git
+  name: Which Film
 
 - url: https://go.googlesource.com/go
 
