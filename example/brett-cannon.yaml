@@ -94,6 +94,9 @@ repositories:
 
 - url: https://github.com/gittip/shields.io.git
   name: shields.io
+  
+- url: https://github.com/google/grumpy.git
+  name: Grumpy
 
 - url: https://github.com/grempe/diceware.git
   name: https://www.rempe.us/diceware
