@@ -133,6 +133,9 @@ repositories:
 
 - url: https://github.com/Microsoft/vscode-docs.git
   name: Visual Studio Code documentation
+  
+- url: https://github.com/mozilla-services/konfig.git
+  name: Konfig
 
 - url: https://github.com/MPOS/php-mpos.git
   name: MPOS
