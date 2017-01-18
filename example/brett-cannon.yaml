@@ -200,6 +200,9 @@ repositories:
 
 - url: https://github.com/topazproject/topaz.git
   name: Topaz
+  
+- url: https://github.com/twisted/klein.git
+  name: Klein
 
 - url: https://github.com/WebAssembly/design.git
   name: WebAssembly design doc
