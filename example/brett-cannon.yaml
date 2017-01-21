@@ -91,6 +91,9 @@ repositories:
   name: Django
   commits:
     - c485e236bd7e5ea40c64b2fe54d85dbb15b2fd39
+    
+- url: https://github.com/getsentry/responses.git
+  name: responses
 
 - url: https://github.com/gittip/shields.io.git
   name: shields.io
