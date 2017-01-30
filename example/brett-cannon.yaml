@@ -190,6 +190,9 @@ repositories:
   
 - url: https://github.com/rust-lang-nursery/rustfmt.git
   name: rustfmt
+  
+- url: https://github.com/sigmavirus24/uritemplate.git
+  name: uritemplate
 
 - url: https://github.com/sphinx-doc/sphinx.git
   name: Sphinx
