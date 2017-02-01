@@ -106,6 +106,9 @@ repositories:
 
 - url: https://github.com/homebrew/homebrew.git
   name: Homebrew
+  
+- url: https://github.com/JuliaLang/julia.git
+  name: Julia
 
 - url: https://github.com/jupyter/jupyter.github.io.git
   name: jupyter.org
