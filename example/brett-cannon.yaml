@@ -79,6 +79,9 @@ repositories:
 
 - url: https://github.com/dabeaz/curio.git
   name: Curio
+  
+- url: https://github.com/dabeaz/ply.git
+  name: PLY
 
 - url: https://github.com/DonJayamanne/pythonVSCode.git
   name: Python extension for VS Code
