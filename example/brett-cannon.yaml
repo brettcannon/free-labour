@@ -187,6 +187,9 @@ repositories:
 
 - url: https://github.com/python-hyper/hyper-h2.git
   name: hyper-h2
+  
+- url: https://github.com/python-trio/trio.git
+  name: Trio
 
 - url: https://github.com/riscv/riscv-tests.git
   name: RISC-V tests
