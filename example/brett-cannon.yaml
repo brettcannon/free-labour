@@ -154,6 +154,9 @@ repositories:
 
 - url: https://github.com/progit/progit2.git
   name: Pro Git, Second Edition
+  
+- url: https://github.com/pybee/liquid-demo.git
+  name: BeeWare Toga demo (Liquid)
 
 - url: https://github.com/pyca/pyopenssl.git
   name: PyOpenSSL
