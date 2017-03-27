@@ -70,6 +70,9 @@ repositories:
   
 - url: https://github.com/brettcannon/sans-io.git
   name: https://sans-io.readthedocs.io
+  
+- url: https://github.com/briandealwis/ferret.git
+  name: Ferret
 
 - url: https://github.com/ceylon/ceylon-lang.org.git
   name: Ceylon
