@@ -56,6 +56,12 @@ repositories:
 
 - url: https://github.com/Azure/azure-documentdb-python.git
   name: Azure DocumentDB
+  
+- url: https://github.com/Azure/msrest-for-python.git
+  name: AutoRest: Python Client Runtime
+  
+- url: https://github.com/Azure/msrestazure-for-python.git
+  name: AutoRest: Python Client Runtime - Azure Module
 
 - url: https://github.com/bagder/http2-explained.git
   name: http2 explained
