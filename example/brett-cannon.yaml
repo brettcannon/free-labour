@@ -41,6 +41,9 @@ repositories:
 
 - url: https://github.com/angular/angular.js.git
   name: Angular.js
+  
+- url: https://github.com/ansible/ansible.git
+  name: Ansible
 
 - url: https://github.com/aosabook/500lines.git
   name: 500 Lines or Less
