@@ -178,6 +178,9 @@ repositories:
 
 - url: https://github.com/pypa/python-packaging-user-guide.git
   name: packaging.python.org
+  
+- url: https://github.com/python/bedevere.git
+  name: Bedevere
 
 - url: https://github.com/python/devguide.git
   name: Python Developer's Guide
