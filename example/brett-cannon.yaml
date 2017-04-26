@@ -71,6 +71,9 @@ repositories:
 
 - url: https://github.com/brettcannon/caniusepython3.git
   name: caniusepython3
+  
+- url: https://github.com/brettcannon/gidgethub.git
+  name: gidgethub
 
 - urls:
     - https://github.com/brettcannon/oplop.git
