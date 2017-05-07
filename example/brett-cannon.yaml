@@ -112,6 +112,9 @@ repositories:
     
 - url: https://github.com/getsentry/responses.git
   name: responses
+  
+- url: https://github.com/github/gitignore.git
+  name: GitHub gitignore
 
 - url: https://github.com/gittip/shields.io.git
   name: shields.io
