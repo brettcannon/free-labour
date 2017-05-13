@@ -185,6 +185,9 @@ repositories:
 - url: https://github.com/python/bedevere.git
   name: Bedevere
 
+- url: https://github.com/python/cpython.git
+  name: CPython
+
 - url: https://github.com/python/devguide.git
   name: Python Developer's Guide
 
@@ -256,8 +259,6 @@ repositories:
 
 - url: https://hg.python.org/benchmarks/
   name: The Grand Unified Python Benchmark Suite
-
-- url: https://hg.python.org/cpython/
 
 - url: http://selenic.com/hg
   name: Mercurial
