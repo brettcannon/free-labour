@@ -41,13 +41,13 @@ repositories:
 
 - url: https://github.com/angular/angular.js.git
   name: Angular.js
-  
+
 - url: https://github.com/ansible/ansible.git
   name: Ansible
 
 - url: https://github.com/aosabook/500lines.git
   name: 500 Lines or Less
-  
+
 - url: https://github.com/asyncio-doc/asyncio-doc
   name: https://asyncio.readthedocs.io
 
@@ -59,19 +59,19 @@ repositories:
 
 - url: https://github.com/Azure/azure-documentdb-python.git
   name: Azure DocumentDB
-  
+
 - url: https://github.com/Azure/msrest-for-python.git
-  name: AutoRest: Python Client Runtime
-  
+  name: AutoRest Python Client Runtime
+
 - url: https://github.com/Azure/msrestazure-for-python.git
-  name: AutoRest: Python Client Runtime - Azure Module
+  name: AutoRest Python Client Runtime - Azure Module
 
 - url: https://github.com/bagder/http2-explained.git
   name: http2 explained
 
 - url: https://github.com/brettcannon/caniusepython3.git
   name: caniusepython3
-  
+
 - url: https://github.com/brettcannon/gidgethub.git
   name: gidgethub
 
@@ -79,10 +79,10 @@ repositories:
     - https://github.com/brettcannon/oplop.git
     - https://bitbucket.org/brettcannon/old-oplop
   name: Oplop
-  
+
 - url: https://github.com/brettcannon/sans-io.git
   name: https://sans-io.readthedocs.io
-  
+
 - url: https://github.com/briandealwis/ferret.git
   name: Ferret
 
@@ -94,7 +94,7 @@ repositories:
 
 - url: https://github.com/dabeaz/curio.git
   name: Curio
-  
+
 - url: https://github.com/dabeaz/ply.git
   name: PLY
 
@@ -109,16 +109,16 @@ repositories:
   name: Django
   commits:
     - c485e236bd7e5ea40c64b2fe54d85dbb15b2fd39
-    
+
 - url: https://github.com/getsentry/responses.git
   name: responses
-  
+
 - url: https://github.com/github/gitignore.git
   name: GitHub gitignore
 
 - url: https://github.com/gittip/shields.io.git
   name: shields.io
-  
+
 - url: https://github.com/google/grumpy.git
   name: Grumpy
 
@@ -127,7 +127,7 @@ repositories:
 
 - url: https://github.com/homebrew/homebrew.git
   name: Homebrew
-  
+
 - url: https://github.com/JuliaLang/julia.git
   name: Julia
 
@@ -163,7 +163,7 @@ repositories:
 
 - url: https://github.com/Microsoft/vscode-docs.git
   name: Visual Studio Code documentation
-  
+
 - url: https://github.com/mozilla-services/konfig.git
   name: Konfig
 
@@ -172,7 +172,7 @@ repositories:
 
 - url: https://github.com/progit/progit2.git
   name: Pro Git, Second Edition
-  
+
 - url: https://github.com/pybee/liquid-demo.git
   name: BeeWare Toga demo (Liquid)
 
@@ -181,7 +181,7 @@ repositories:
 
 - url: https://github.com/pypa/python-packaging-user-guide.git
   name: packaging.python.org
-  
+
 - url: https://github.com/python/bedevere.git
   name: Bedevere
 
@@ -211,7 +211,7 @@ repositories:
 
 - url: https://github.com/python-hyper/hyper-h2.git
   name: hyper-h2
-  
+
 - url: https://github.com/python-trio/trio.git
   name: Trio
 
@@ -220,10 +220,10 @@ repositories:
 
 - url: https://github.com/rust-lang/rust.git
   name: Rust
-  
+
 - url: https://github.com/rust-lang-nursery/rustfmt.git
   name: rustfmt
-  
+
 - url: https://github.com/sigmavirus24/uritemplate.git
   name: uritemplate
 
@@ -239,16 +239,16 @@ repositories:
 
 - url: https://github.com/topazproject/topaz.git
   name: Topaz
-  
+
 - url: https://github.com/twisted/klein.git
   name: Klein
-  
+
 - url: https://github.com/victor-o-silva/python-links-from-link-header.git
   name: python-links-from-link-header
 
 - url: https://github.com/WebAssembly/design.git
   name: WebAssembly design doc
-  
+
 - url: https://github.com/Which-Film/which-film.info.git
   name: Which Film
 
