@@ -163,6 +163,9 @@ repositories:
 
 - url: https://github.com/Microsoft/vscode-docs.git
   name: Visual Studio Code documentation
+  
+- url: https://github.com/moby/mobywebsite.git
+  name: mobyproject.org
 
 - url: https://github.com/mozilla-services/konfig.git
   name: Konfig
