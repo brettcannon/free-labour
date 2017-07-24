@@ -101,7 +101,7 @@ repositories:
 - url: https://github.com/DonJayamanne/pythonVSCode.git
   name: Python extension for VS Code
 
-- url: https://github.com/dotnet/core-docs.git
+- url: https://github.com/dotnet/docs.git
   name: .NET Core Documentation
   branch: live
 
