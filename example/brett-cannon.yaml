@@ -142,11 +142,14 @@ repositories:
 
 - url: https://github.com/kennethreitz/python-guide.git
   name: Hitchhiker's Guide to Python
+  
+- url: https://github.com/MicrosoftDocs/visualstudio-docs.git
+  name: Visual Studio documentation
 
 - url: https://github.com/lextm/vscode-restructuredtext.git
   name: reStructuredText Language Support for Visual Studio Code
 
-- url: https://github.com/lextm/vscode-restructuredtext.git
+- url: https://github.com/Lukasa/language-restructuredtext.git
   name: reStructuredText Language Support for Atom
 
 - url: https://github.com/matplotlib/matplotlib.git
