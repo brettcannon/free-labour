@@ -127,6 +127,9 @@ repositories:
 
 - url: https://github.com/homebrew/homebrew.git
   name: Homebrew
+  
+- url: https://github.com/idan/oauthlib.git
+  name: oauthlib
 
 - url: https://github.com/JuliaLang/julia.git
   name: Julia
