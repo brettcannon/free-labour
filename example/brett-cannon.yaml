@@ -170,6 +170,9 @@ repositories:
 - url: https://github.com/Microsoft/vscode-docs.git
   name: Visual Studio Code documentation
   
+- url: https://github.com/microsoftgraph/microsoft-graph-docs.git
+  name: Microsoft Graph REST API documentation
+  
 - url: https://github.com/moby/mobywebsite.git
   name: mobyproject.org
 
