@@ -85,6 +85,9 @@ repositories:
 
 - url: https://github.com/briandealwis/ferret.git
   name: Ferret
+  
+- url: https://github.com/bungcip/better-toml
+  name: Better TOML VS Code extension
 
 - url: https://github.com/ceylon/ceylon-lang.org.git
   name: Ceylon
