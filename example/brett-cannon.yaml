@@ -104,9 +104,6 @@ repositories:
 - url: https://github.com/dabeaz/ply.git
   name: PLY
 
-- url: https://github.com/DonJayamanne/pythonVSCode.git
-  name: Python extension for VS Code
-
 - url: https://github.com/dotnet/docs.git
   name: .NET Core Documentation
   branch: live
@@ -178,9 +175,18 @@ repositories:
 
 - url: https://github.com/Microsoft/TypeScript-wiki.git
   name: TypeScript wiki
+  
+- url: https://github.com/Microsoft/vscode.git
+  name: Visual Studio Code
+  
+- url: https://github.com/Microsoft/vscode-docker.git
+  name: Docker extension for VS Code
 
 - url: https://github.com/Microsoft/vscode-docs.git
   name: Visual Studio Code documentation
+  
+- url: https://github.com/Microsoft/vscode-python.git
+  name: Python extension for VS Code
   
 - url: https://github.com/microsoftgraph/microsoft-graph-docs.git
   name: Microsoft Graph REST API documentation
