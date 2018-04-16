@@ -160,6 +160,9 @@ repositories:
 
 - url: https://github.com/Lukasa/language-restructuredtext.git
   name: reStructuredText Language Support for Atom
+  
+- url: https://github.com/Mariatta/github-bot-tutorial
+  name: Mariatta's GitHub bot tutorial
 
 - url: https://github.com/matplotlib/matplotlib.git
   name: matplotlib
