@@ -113,6 +113,9 @@ repositories:
   commits:
     - c485e236bd7e5ea40c64b2fe54d85dbb15b2fd39
     
+- url: https://github.com/eamodio/vscode-gitlens.git
+  name: GitLens
+    
 - url: https://github.com/facebook/pyre-check
   name: Pyre
 
