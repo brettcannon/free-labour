@@ -38,6 +38,9 @@ repositories:
   name: Expat
   commits:
     - 021ea9f68c5b64799a4fbbc32ab30e1df9fbe3b7
+    
+- url: https://github.com/ambv/black.git
+  name: Black
 
 - url: https://github.com/angular/angular.js.git
   name: Angular.js
