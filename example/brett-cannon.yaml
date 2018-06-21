@@ -287,6 +287,9 @@ repositories:
 
 - url: https://github.com/twisted/klein.git
   name: Klein
+  
+- url: https://github.com/vibora-io/vibora.git
+  name: Vibora
 
 - url: https://github.com/victor-o-silva/python-links-from-link-header.git
   name: python-links-from-link-header
