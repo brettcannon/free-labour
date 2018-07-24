@@ -217,6 +217,9 @@ repositories:
 
 - url: https://github.com/pybee/liquid-demo.git
   name: BeeWare Toga demo (Liquid)
+  
+- url: https://github.com/pybee/toga.git
+  name: Toga
 
 - url: https://github.com/pyca/pyopenssl.git
   name: PyOpenSSL
