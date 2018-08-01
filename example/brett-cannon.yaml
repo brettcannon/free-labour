@@ -284,6 +284,9 @@ repositories:
 - url: https://github.com/syl20bnr/spacemacs.git
   name: Spacemacs
   branch: develop
+  
+- url: https://github.com/takluyver/flit.git
+  name: Flit
 
 - url: https://github.com/topazproject/topaz.git
   name: Topaz
