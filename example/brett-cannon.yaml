@@ -158,6 +158,9 @@ repositories:
 - url: https://github.com/kennethreitz/python-guide.git
   name: Hitchhiker's Guide to Python
   
+- url: https://github.com/kushaldas/pym.git
+  name: "Python for You and Me" book
+  
 - url: https://github.com/MicrosoftDocs/visualstudio-docs.git
   name: Visual Studio documentation
 
