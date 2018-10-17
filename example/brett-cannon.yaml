@@ -293,6 +293,9 @@ repositories:
   
 - url: https://github.com/takluyver/flit.git
   name: Flit
+  
+- url: https://github.com/thechangelog/show-notes.git
+  name: Changelog show notes
 
 - url: https://github.com/topazproject/topaz.git
   name: Topaz
