@@ -227,6 +227,9 @@ repositories:
 - url: https://github.com/pyca/pyopenssl.git
   name: PyOpenSSL
   
+- url: https://github.com/pypa/packaging.git
+  name: 'packaging'
+  
 - url: https://github.com/pypa/pipenv.git
   name: pipenv
 
