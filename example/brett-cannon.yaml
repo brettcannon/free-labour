@@ -118,6 +118,9 @@ repositories:
     
 - url: https://github.com/eamodio/vscode-gitlens.git
   name: GitLens
+  
+- url: https://github.com/elixir-lang/elixir-lang.github.com
+  name: elixir-lang.org
     
 - url: https://github.com/facebook/pyre-check
   name: Pyre
