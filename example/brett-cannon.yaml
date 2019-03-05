@@ -167,6 +167,9 @@ repositories:
 - url: https://github.com/kushaldas/pym.git
   name: "Python for You and Me" book
   
+- url: https://github.com/MeeseeksBox/meeseeksbox.github.io.git
+  name: https://meeseeksbox.github.io/
+  
 - url: https://github.com/MicrosoftDocs/visualstudio-docs.git
   name: Visual Studio documentation
 
