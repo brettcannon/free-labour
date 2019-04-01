@@ -145,6 +145,9 @@ repositories:
   
 - url: https://github.com/idan/oauthlib.git
   name: oauthlib
+  
+- url: https://github.com/jazzband/pip-tools
+  name: pip-tools
 
 - url: https://github.com/JuliaLang/julia.git
   name: Julia
