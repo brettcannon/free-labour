@@ -203,6 +203,9 @@ repositories:
 - url: https://github.com/Microsoft/vscode.git
   name: Visual Studio Code
   
+- url: https://github.com/microsoft/vscode-dev-containers
+  name: VS Code Remote Development Container Definitions
+  
 - url: https://github.com/Microsoft/vscode-docker.git
   name: Docker extension for VS Code
 
