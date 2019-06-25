@@ -39,6 +39,9 @@ repositories:
   commits:
     - 021ea9f68c5b64799a4fbbc32ab30e1df9fbe3b7
     
+- url: https://github.com/adafruit/Adafruit_CircuitPython_CircuitPlayground.git
+  name: CircuitPython library for CircuitPlayground 
+    
 - url: https://github.com/ambv/black.git
   name: Black
 
