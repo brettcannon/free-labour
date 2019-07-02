@@ -298,6 +298,9 @@ repositories:
 
 - url: https://github.com/rust-lang-nursery/rustfmt.git
   name: rustfmt
+  
+- url: https://github.com/saschpe/mozilla-plugins.git
+  name: PyPI search plug-in for Firefox
 
 - url: https://github.com/sigmavirus24/uritemplate.git
   name: uritemplate
