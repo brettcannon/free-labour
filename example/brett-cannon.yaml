@@ -310,6 +310,9 @@ repositories:
 
 - url: https://github.com/square/dagger.git
   name: Dagger
+  
+- url: https://github.com/stellar/docs.git
+  name: Stellar documentation
 
 - url: https://github.com/syl20bnr/spacemacs.git
   name: Spacemacs
