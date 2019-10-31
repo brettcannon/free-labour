@@ -103,6 +103,9 @@ repositories:
 
 - url: https://github.com/chhantyal/py3readiness.git
   name: py3readiness.org
+  
+- url: https://github.com/clearlydefined/curated-data
+  name: ClearlyDefined data
 
 - url: https://github.com/dabeaz/curio.git
   name: Curio
