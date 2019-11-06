@@ -94,9 +94,6 @@ repositories:
   
 - url: https://github.com/bungcip/better-toml
   name: Better TOML VS Code extension
-  
-- url: https://github.com/conda/conda-docs
-  name: conda documentation
 
 - url: https://github.com/ceylon/ceylon-lang.org.git
   name: Ceylon
@@ -106,6 +103,12 @@ repositories:
   
 - url: https://github.com/clearlydefined/curated-data
   name: ClearlyDefined data
+  
+- url: https://github.com/conda/conda.git
+  name: conda
+  
+- url: https://github.com/conda/conda-docs
+  name: conda documentation
 
 - url: https://github.com/dabeaz/curio.git
   name: Curio
