@@ -178,12 +178,6 @@ repositories:
   
 - url: https://github.com/kushaldas/pym.git
   name: "Python for You and Me" book
-  
-- url: https://github.com/MeeseeksBox/meeseeksbox.github.io.git
-  name: https://meeseeksbox.github.io/
-  
-- url: https://github.com/MicrosoftDocs/visualstudio-docs.git
-  name: Visual Studio documentation
 
 - url: https://github.com/lextm/vscode-restructuredtext.git
   name: reStructuredText Language Support for Visual Studio Code
@@ -196,6 +190,9 @@ repositories:
 
 - url: https://github.com/matplotlib/matplotlib.git
   name: matplotlib
+  
+- url: https://github.com/MeeseeksBox/meeseeksbox.github.io.git
+  name: https://meeseeksbox.github.io/
   
 - url: https://github.com/Microsoft/language-server-protocol.git
   name: Visual Studio Code Language Server Protocol
@@ -223,6 +220,12 @@ repositories:
   
 - url: https://github.com/Microsoft/vscode-python.git
   name: Python extension for VS Code
+  
+- url: https://github.com/microsoft/vscode-python-devicesimulator.git
+  name: Device Simulator Express
+  
+- url: https://github.com/MicrosoftDocs/visualstudio-docs.git
+  name: Visual Studio documentation
   
 - url: https://github.com/microsoftgraph/microsoft-graph-docs.git
   name: Microsoft Graph REST API documentation
