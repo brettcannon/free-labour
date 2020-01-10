@@ -218,6 +218,9 @@ repositories:
 - url: https://github.com/Microsoft/vscode-docs.git
   name: Visual Studio Code documentation
   
+- url: https://github.com/microsoft/vscode-extension-samples.git
+  name: Visual Studio Code extension samples
+  
 - url: https://github.com/Microsoft/vscode-python.git
   name: Python extension for VS Code
   
