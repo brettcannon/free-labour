@@ -115,6 +115,9 @@ repositories:
 
 - url: https://github.com/dabeaz/ply.git
   name: PLY
+  
+- url: https://github.com/diogonfs/pyinit.git
+  name: PyInit
 
 - url: https://github.com/dotnet/docs.git
   name: .NET Core Documentation
