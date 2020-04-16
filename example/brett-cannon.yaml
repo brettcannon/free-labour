@@ -230,6 +230,9 @@ repositories:
 - url: https://github.com/microsoft/vscode-python-devicesimulator.git
   name: Device Simulator Express
   
+- url: https://github.com/microsoft/vscode-tools-for-ai
+  name: Azure Machine Learning for Visual Studio Code
+  
 - url: https://github.com/MicrosoftDocs/visualstudio-docs.git
   name: Visual Studio documentation
   
