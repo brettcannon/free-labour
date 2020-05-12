@@ -266,6 +266,9 @@ repositories:
 - url: https://github.com/pyca/pyopenssl.git
   name: PyOpenSSL
   
+- url: https://github.com/PyCQA/pyflakes.git
+  name: Pyflakes
+  
 - url: https://github.com/pypa/packaging.git
   name: 'packaging'
   
