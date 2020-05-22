@@ -60,7 +60,7 @@ repositories:
 - url: https://github.com/asyncio-doc/asyncio-doc
   name: https://asyncio.readthedocs.io
 
-- url: https://github.com/audreyr/cookiecutter.git
+- url: https://github.com/cookiecutter/cookiecutter.git
   name: Cookiecutter
 
 - url: https://github.com/aurelia/documentation.git
