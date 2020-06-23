@@ -319,6 +319,9 @@ repositories:
 
 - url: https://github.com/riscv/riscv-tests.git
   name: RISC-V tests
+  
+- url: https://github.com/rust-lang/log.git
+  name: Rust `log`
 
 - url: https://github.com/rust-lang/rust.git
   name: Rust
