@@ -41,6 +41,9 @@ repositories:
     
 - url: https://gitlab.com/python-devs/importlib_metadata.git
   name: importlib_metadata
+  
+- url: https://github.com/actions-rs/install.git
+  name: rust-cargo-install action
     
 - url: https://github.com/adafruit/Adafruit_CircuitPython_CircuitPlayground.git
   name: CircuitPython library for CircuitPlayground 
