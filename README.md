@@ -1,3 +1,5 @@
+I have moved recording my open source contributions to [my personal GitHub README](https://github.com/brettcannon/brettcannon).
+
 # Free Labour
 Calculate your open source contributions from Git or Bitbucket repositories.
 
